@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'CSSimpleSideMenu/*.{h,m,swift}'
+  s.source_files = 'CSSimpleSideMenu/**/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'CSSimpleSideMenu' => ['CSSimpleSideMenu/Assets/*.png']
