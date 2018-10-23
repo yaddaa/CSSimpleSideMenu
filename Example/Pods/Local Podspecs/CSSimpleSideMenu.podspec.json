@@ -1,0 +1,22 @@
+{
+  "name": "CSSimpleSideMenu",
+  "version": "0.1.0",
+  "summary": "A short description of CSSimpleSideMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Chelak Stas/CSSimpleSideMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chelak Stas": "yaddaa2@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Chelak Stas/CSSimpleSideMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CSSimpleSideMenu/Classes/**/*"
+}
