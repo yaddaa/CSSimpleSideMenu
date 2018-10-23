@@ -1,4 +1,5 @@
 # CSSimpleSideMenu
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/Chelak Stas/CSSimpleSideMenu.svg?style=flat)](https://travis-ci.org/Chelak Stas/CSSimpleSideMenu)
 [![Version](https://img.shields.io/cocoapods/v/CSSimpleSideMenu.svg?style=flat)](https://cocoapods.org/pods/CSSimpleSideMenu)
@@ -27,3 +28,9 @@ Chelak Stas, yaddaa2@gmail.com
 ## License
 
 CSSimpleSideMenu is available under the MIT license. See the LICENSE file for more info.
+=======
+A simple side menu for small projects
+
+
+ewrgthegwrwrghfrefw
+>>>>>>> 7d1398d63ff310d16b5095d20c66017be7a65591
