@@ -8,39 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		1B4C50E183239ED8D314B778 /* Pods_CSSimpleSideMenu_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A13FF0DC40E4A85DBBAD5F6 /* Pods_CSSimpleSideMenu_Example.framework */; };
-		3D82F4B8217FBCD0009A727E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F4AC217FBCD0009A727E /* UIViewController+Extensions.swift */; };
-		3D82F4B9217FBCD0009A727E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F4AF217FBCD0009A727E /* ThirdViewController.swift */; };
-		3D82F4BA217FBCD0009A727E /* ThirdViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F4B0217FBCD0009A727E /* ThirdViewController.storyboard */; };
-		3D82F4BB217FBCD0009A727E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F4B2217FBCD0009A727E /* FirstViewController.swift */; };
-		3D82F4BC217FBCD0009A727E /* FirstViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F4B3217FBCD0009A727E /* FirstViewController.storyboard */; };
-		3D82F4BD217FBCD0009A727E /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F4B6217FBCD0009A727E /* SecondViewController.storyboard */; };
-		3D82F4BE217FBCD0009A727E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F4B7217FBCD0009A727E /* SecondViewController.swift */; };
 		3D82F4C0217FBCDD009A727E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F4BF217FBCDD009A727E /* AppDelegate.swift */; };
+		3D82F52A217FC7CC009A727E /* CSSimpleSideMenu.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F529217FC7CC009A727E /* CSSimpleSideMenu.podspec */; };
+		3D82F52D217FC830009A727E /* FirstViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F52B217FC830009A727E /* FirstViewController.storyboard */; };
+		3D82F52E217FC830009A727E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F52C217FC830009A727E /* FirstViewController.swift */; };
+		3D82F531217FC838009A727E /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F52F217FC837009A727E /* SecondViewController.storyboard */; };
+		3D82F532217FC838009A727E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F530217FC838009A727E /* SecondViewController.swift */; };
+		3D82F535217FC841009A727E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F533217FC841009A727E /* ThirdViewController.swift */; };
+		3D82F536217FC841009A727E /* ThirdViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F534217FC841009A727E /* ThirdViewController.storyboard */; };
+		3D82F538217FC865009A727E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F537217FC865009A727E /* UIViewController+Extensions.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18ABA205A6AB7D2B02EFB3C9 /* Pods_CSSimpleSideMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSimpleSideMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CC33373E796472FABF637C /* Pods-CSSimpleSideMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSimpleSideMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSSimpleSideMenu_Tests/Pods-CSSimpleSideMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3D82F4AC217FBCD0009A727E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
-		3D82F4AF217FBCD0009A727E /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		3D82F4B0217FBCD0009A727E /* ThirdViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdViewController.storyboard; sourceTree = "<group>"; };
-		3D82F4B2217FBCD0009A727E /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3D82F4B4217FBCD0009A727E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FirstViewController.storyboard; sourceTree = "<group>"; };
-		3D82F4B6217FBCD0009A727E /* SecondViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondViewController.storyboard; sourceTree = "<group>"; };
-		3D82F4B7217FBCD0009A727E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3D82F4BF217FBCDD009A727E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D82F529217FC7CC009A727E /* CSSimpleSideMenu.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSSimpleSideMenu.podspec; path = ../CSSimpleSideMenu.podspec; sourceTree = "<group>"; };
+		3D82F52B217FC830009A727E /* FirstViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstViewController.storyboard; sourceTree = "<group>"; };
+		3D82F52C217FC830009A727E /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3D82F52F217FC837009A727E /* SecondViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondViewController.storyboard; sourceTree = "<group>"; };
+		3D82F530217FC838009A727E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3D82F533217FC841009A727E /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3D82F534217FC841009A727E /* ThirdViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdViewController.storyboard; sourceTree = "<group>"; };
+		3D82F537217FC865009A727E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		3DF165FEBE8F2E89EED2D9F5 /* Pods-CSSimpleSideMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSimpleSideMenu_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSSimpleSideMenu_Example/Pods-CSSimpleSideMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		52E49CFA549197593F8FC5C4 /* Pods-CSSimpleSideMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSimpleSideMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSSimpleSideMenu_Tests/Pods-CSSimpleSideMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CSSimpleSideMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSSimpleSideMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7F07D40F1481BDD712C4E145 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8A13FF0DC40E4A85DBBAD5F6 /* Pods_CSSimpleSideMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSimpleSideMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D61EB347624D8540527E8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B225420EEA6E38612544A192 /* CSSimpleSideMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CSSimpleSideMenu.podspec; path = ../CSSimpleSideMenu.podspec; sourceTree = "<group>"; };
 		EB7E28E8EBA097B22380A107 /* Pods-CSSimpleSideMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSimpleSideMenu_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSSimpleSideMenu_Example/Pods-CSSimpleSideMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,49 +66,47 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3D82F4AB217FBCD0009A727E /* Extensions */ = {
+		3D82F522217FC7AE009A727E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F4AC217FBCD0009A727E /* UIViewController+Extensions.swift */,
+				3D82F537217FC865009A727E /* UIViewController+Extensions.swift */,
 			);
-			name = Extensions;
-			path = "../../../untitled folder/Example/Extensions";
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		3D82F4AD217FBCD0009A727E /* Modules */ = {
+		3D82F524217FC7AE009A727E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F4B1217FBCD0009A727E /* FirstViewController */,
-				3D82F4B5217FBCD0009A727E /* SecondViewController */,
-				3D82F4AE217FBCD0009A727E /* ThirdViewController */,
+				3D82F525217FC7AE009A727E /* ThirdViewController */,
+				3D82F526217FC7AE009A727E /* FirstViewController */,
+				3D82F527217FC7AE009A727E /* SecondViewController */,
 			);
-			name = Modules;
-			path = "../../../untitled folder/Example/Modules";
+			path = Modules;
 			sourceTree = "<group>";
 		};
-		3D82F4AE217FBCD0009A727E /* ThirdViewController */ = {
+		3D82F525217FC7AE009A727E /* ThirdViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F4B0217FBCD0009A727E /* ThirdViewController.storyboard */,
-				3D82F4AF217FBCD0009A727E /* ThirdViewController.swift */,
+				3D82F534217FC841009A727E /* ThirdViewController.storyboard */,
+				3D82F533217FC841009A727E /* ThirdViewController.swift */,
 			);
 			path = ThirdViewController;
 			sourceTree = "<group>";
 		};
-		3D82F4B1217FBCD0009A727E /* FirstViewController */ = {
+		3D82F526217FC7AE009A727E /* FirstViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F4B3217FBCD0009A727E /* FirstViewController.storyboard */,
-				3D82F4B2217FBCD0009A727E /* FirstViewController.swift */,
+				3D82F52B217FC830009A727E /* FirstViewController.storyboard */,
+				3D82F52C217FC830009A727E /* FirstViewController.swift */,
 			);
 			path = FirstViewController;
 			sourceTree = "<group>";
 		};
-		3D82F4B5217FBCD0009A727E /* SecondViewController */ = {
+		3D82F527217FC7AE009A727E /* SecondViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F4B6217FBCD0009A727E /* SecondViewController.storyboard */,
-				3D82F4B7217FBCD0009A727E /* SecondViewController.swift */,
+				3D82F52F217FC837009A727E /* SecondViewController.storyboard */,
+				3D82F530217FC838009A727E /* SecondViewController.swift */,
 			);
 			path = SecondViewController;
 			sourceTree = "<group>";
@@ -145,11 +142,9 @@
 		607FACD21AFB9204008FA782 /* Example for CSSimpleSideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F4AB217FBCD0009A727E /* Extensions */,
-				3D82F4AD217FBCD0009A727E /* Modules */,
 				3D82F4BF217FBCDD009A727E /* AppDelegate.swift */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				3D82F522217FC7AE009A727E /* Extensions */,
+				3D82F524217FC7AE009A727E /* Modules */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for CSSimpleSideMenu";
@@ -159,6 +154,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -167,7 +163,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B225420EEA6E38612544A192 /* CSSimpleSideMenu.podspec */,
+				3D82F529217FC7CC009A727E /* CSSimpleSideMenu.podspec */,
 				94D61EB347624D8540527E8D /* README.md */,
 				7F07D40F1481BDD712C4E145 /* LICENSE */,
 			);
@@ -237,11 +233,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D82F4BD217FBCD0009A727E /* SecondViewController.storyboard in Resources */,
-				3D82F4BC217FBCD0009A727E /* FirstViewController.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				3D82F536217FC841009A727E /* ThirdViewController.storyboard in Resources */,
+				3D82F52D217FC830009A727E /* FirstViewController.storyboard in Resources */,
+				3D82F531217FC838009A727E /* SecondViewController.storyboard in Resources */,
+				3D82F52A217FC7CC009A727E /* CSSimpleSideMenu.podspec in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				3D82F4BA217FBCD0009A727E /* ThirdViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,34 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D82F532217FC838009A727E /* SecondViewController.swift in Sources */,
 				3D82F4C0217FBCDD009A727E /* AppDelegate.swift in Sources */,
-				3D82F4BE217FBCD0009A727E /* SecondViewController.swift in Sources */,
-				3D82F4BB217FBCD0009A727E /* FirstViewController.swift in Sources */,
-				3D82F4B8217FBCD0009A727E /* UIViewController+Extensions.swift in Sources */,
-				3D82F4B9217FBCD0009A727E /* ThirdViewController.swift in Sources */,
+				3D82F538217FC865009A727E /* UIViewController+Extensions.swift in Sources */,
+				3D82F535217FC841009A727E /* ThirdViewController.swift in Sources */,
+				3D82F52E217FC830009A727E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3D82F4B3217FBCD0009A727E /* FirstViewController.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D82F4B4217FBCD0009A727E /* Base */,
-			);
-			name = FirstViewController.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {

@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D82F48B217FBC67009A727E /* SideMenuCustomizationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F472217FBC66009A727E /* SideMenuCustomizationModel.swift */; };
-		3D82F48C217FBC67009A727E /* SideMenuControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F473217FBC66009A727E /* SideMenuControllerModel.swift */; };
-		3D82F48D217FBC67009A727E /* SideMenuTableViewControllerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F474217FBC66009A727E /* SideMenuTableViewControllerConfiguration.swift */; };
-		3D82F48E217FBC67009A727E /* SideMenuTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F477217FBC66009A727E /* SideMenuTVCell.swift */; };
-		3D82F48F217FBC67009A727E /* SideMenuEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F47A217FBC66009A727E /* SideMenuEnums.swift */; };
-		3D82F490217FBC67009A727E /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F47D217FBC66009A727E /* SideMenuViewController.swift */; };
-		3D82F491217FBC67009A727E /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F480217FBC66009A727E /* SideMenuTableViewController.swift */; };
-		3D82F492217FBC67009A727E /* SideMenuViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F483217FBC66009A727E /* SideMenuViewControllerDelegate.swift */; };
-		3D82F493217FBC67009A727E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F486217FBC66009A727E /* UIViewController+Extensions.swift */; };
-		3D82F494217FBC67009A727E /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F487217FBC66009A727E /* Reusable.swift */; };
-		3D82F495217FBC67009A727E /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F488217FBC66009A727E /* UITableView+Extensions.swift */; };
-		3D82F496217FBC67009A727E /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F489217FBC66009A727E /* SideMenu.swift */; };
-		3D82F4C9217FC056009A727E /* SideMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F4C3217FBFBA009A727E /* SideMenuViewController.storyboard */; };
-		3D82F4CA217FC05A009A727E /* SideMenuTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F478217FBC66009A727E /* SideMenuTVCell.xib */; };
-		3D82F4CB217FC05D009A727E /* SideMenuTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F4C4217FBFD3009A727E /* SideMenuTableViewController.storyboard */; };
+		3D82F513217FC75A009A727E /* SideMenuTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F4FC217FC75A009A727E /* SideMenuTVCell.swift */; };
+		3D82F514217FC75A009A727E /* SideMenuTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F4FD217FC75A009A727E /* SideMenuTVCell.xib */; };
+		3D82F515217FC75A009A727E /* SideMenuEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F4FF217FC75A009A727E /* SideMenuEnums.swift */; };
+		3D82F516217FC75A009A727E /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F502217FC75A009A727E /* SideMenuViewController.swift */; };
+		3D82F517217FC75A009A727E /* SideMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F503217FC75A009A727E /* SideMenuViewController.storyboard */; };
+		3D82F518217FC75A009A727E /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F505217FC75A009A727E /* SideMenuTableViewController.swift */; };
+		3D82F519217FC75A009A727E /* SideMenuTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F506217FC75A009A727E /* SideMenuTableViewController.storyboard */; };
+		3D82F51A217FC75A009A727E /* SideMenuViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F508217FC75A009A727E /* SideMenuViewControllerDelegate.swift */; };
+		3D82F51B217FC75A009A727E /* SideMenuCustomizationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F50A217FC75A009A727E /* SideMenuCustomizationModel.swift */; };
+		3D82F51C217FC75A009A727E /* SideMenuControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F50B217FC75A009A727E /* SideMenuControllerModel.swift */; };
+		3D82F51D217FC75A009A727E /* SideMenuTableViewControllerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F50C217FC75A009A727E /* SideMenuTableViewControllerConfiguration.swift */; };
+		3D82F51E217FC75A009A727E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F50E217FC75A009A727E /* UIViewController+Extensions.swift */; };
+		3D82F51F217FC75A009A727E /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F50F217FC75A009A727E /* Reusable.swift */; };
+		3D82F520217FC75A009A727E /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F510217FC75A009A727E /* UITableView+Extensions.swift */; };
+		3D82F521217FC75A009A727E /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F512217FC75A009A727E /* SideMenu.swift */; };
 		744946500D3082C0553BEC7143887B34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9CD59979460DEC7DC1C02F9A47E7B293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A4458FF6D08BEBEEA47E059B0510658D /* Pods-CSSimpleSideMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07391A68026E2AF5278B857DD9890A60 /* Pods-CSSimpleSideMenu_Tests-dummy.m */; };
@@ -54,21 +54,21 @@
 		34451FEF900897843C68BA3BCB506801 /* Pods-CSSimpleSideMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSimpleSideMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		346E723888102668CE62B89D56369FBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A848B3A9CB0A2D256581E01FD666F00 /* Pods-CSSimpleSideMenu_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSimpleSideMenu_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3D82F472217FBC66009A727E /* SideMenuCustomizationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCustomizationModel.swift; sourceTree = "<group>"; };
-		3D82F473217FBC66009A727E /* SideMenuControllerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuControllerModel.swift; sourceTree = "<group>"; };
-		3D82F474217FBC66009A727E /* SideMenuTableViewControllerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewControllerConfiguration.swift; sourceTree = "<group>"; };
-		3D82F477217FBC66009A727E /* SideMenuTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTVCell.swift; sourceTree = "<group>"; };
-		3D82F478217FBC66009A727E /* SideMenuTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuTVCell.xib; sourceTree = "<group>"; };
-		3D82F47A217FBC66009A727E /* SideMenuEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuEnums.swift; sourceTree = "<group>"; };
-		3D82F47D217FBC66009A727E /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
-		3D82F480217FBC66009A727E /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
-		3D82F483217FBC66009A727E /* SideMenuViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewControllerDelegate.swift; sourceTree = "<group>"; };
-		3D82F486217FBC66009A727E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
-		3D82F487217FBC66009A727E /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
-		3D82F488217FBC66009A727E /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
-		3D82F489217FBC66009A727E /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
-		3D82F4C3217FBFBA009A727E /* SideMenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenuViewController.storyboard; sourceTree = "<group>"; };
-		3D82F4C4217FBFD3009A727E /* SideMenuTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenuTableViewController.storyboard; sourceTree = "<group>"; };
+		3D82F4FC217FC75A009A727E /* SideMenuTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTVCell.swift; sourceTree = "<group>"; };
+		3D82F4FD217FC75A009A727E /* SideMenuTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuTVCell.xib; sourceTree = "<group>"; };
+		3D82F4FF217FC75A009A727E /* SideMenuEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuEnums.swift; sourceTree = "<group>"; };
+		3D82F502217FC75A009A727E /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		3D82F503217FC75A009A727E /* SideMenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenuViewController.storyboard; sourceTree = "<group>"; };
+		3D82F505217FC75A009A727E /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		3D82F506217FC75A009A727E /* SideMenuTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenuTableViewController.storyboard; sourceTree = "<group>"; };
+		3D82F508217FC75A009A727E /* SideMenuViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewControllerDelegate.swift; sourceTree = "<group>"; };
+		3D82F50A217FC75A009A727E /* SideMenuCustomizationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCustomizationModel.swift; sourceTree = "<group>"; };
+		3D82F50B217FC75A009A727E /* SideMenuControllerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuControllerModel.swift; sourceTree = "<group>"; };
+		3D82F50C217FC75A009A727E /* SideMenuTableViewControllerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewControllerConfiguration.swift; sourceTree = "<group>"; };
+		3D82F50E217FC75A009A727E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		3D82F50F217FC75A009A727E /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		3D82F510217FC75A009A727E /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		3D82F512217FC75A009A727E /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenu.swift; path = CSSimpleSideMenu/SideMenu.swift; sourceTree = "<group>"; };
 		4970BFB2CD9D4381026E61F399C1E11B /* Pods-CSSimpleSideMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSimpleSideMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4CEC988EDA2165F4B8812F3620616319 /* CSSimpleSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSSimpleSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C13D922C417DE4BDACCE27A3801663 /* Pods-CSSimpleSideMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSSimpleSideMenu_Example.modulemap"; sourceTree = "<group>"; };
@@ -123,10 +123,11 @@
 		1E5C654E26606654C03B3993351DDFE4 /* CSSimpleSideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F489217FBC66009A727E /* SideMenu.swift */,
-				3D82F485217FBC66009A727E /* Extensions */,
-				3D82F471217FBC66009A727E /* Models */,
-				3D82F475217FBC66009A727E /* UI Layer */,
+				3D82F512217FC75A009A727E /* SideMenu.swift */,
+				3D82F50D217FC75A009A727E /* Extensions */,
+				3D82F509217FC75A009A727E /* Models */,
+				3D82F511217FC75A009A727E /* Protocols */,
+				3D82F4FA217FC75A009A727E /* UI Layer */,
 				F4640DC0CD40A8DDF656F0CE8FCDE2D5 /* Support Files */,
 			);
 			name = CSSimpleSideMenu;
@@ -141,87 +142,98 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3D82F471217FBC66009A727E /* Models */ = {
+		3D82F4FA217FC75A009A727E /* UI Layer */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F472217FBC66009A727E /* SideMenuCustomizationModel.swift */,
-				3D82F473217FBC66009A727E /* SideMenuControllerModel.swift */,
-				3D82F474217FBC66009A727E /* SideMenuTableViewControllerConfiguration.swift */,
+				3D82F4FB217FC75A009A727E /* Cells */,
+				3D82F4FE217FC75A009A727E /* Enums */,
+				3D82F500217FC75A009A727E /* ViewControllers */,
+				3D82F507217FC75A009A727E /* Protocols */,
 			);
-			path = Models;
+			name = "UI Layer";
+			path = "CSSimpleSideMenu/UI Layer";
 			sourceTree = "<group>";
 		};
-		3D82F475217FBC66009A727E /* UI Layer */ = {
+		3D82F4FB217FC75A009A727E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F476217FBC66009A727E /* Cells */,
-				3D82F479217FBC66009A727E /* Enums */,
-				3D82F47B217FBC66009A727E /* ViewControllers */,
-				3D82F482217FBC66009A727E /* Protocols */,
-			);
-			path = "UI Layer";
-			sourceTree = "<group>";
-		};
-		3D82F476217FBC66009A727E /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				3D82F477217FBC66009A727E /* SideMenuTVCell.swift */,
-				3D82F478217FBC66009A727E /* SideMenuTVCell.xib */,
+				3D82F4FC217FC75A009A727E /* SideMenuTVCell.swift */,
+				3D82F4FD217FC75A009A727E /* SideMenuTVCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		3D82F479217FBC66009A727E /* Enums */ = {
+		3D82F4FE217FC75A009A727E /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F47A217FBC66009A727E /* SideMenuEnums.swift */,
+				3D82F4FF217FC75A009A727E /* SideMenuEnums.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
 		};
-		3D82F47B217FBC66009A727E /* ViewControllers */ = {
+		3D82F500217FC75A009A727E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F47C217FBC66009A727E /* MainViewController */,
-				3D82F47F217FBC66009A727E /* TableViewController */,
+				3D82F501217FC75A009A727E /* MainViewController */,
+				3D82F504217FC75A009A727E /* TableViewController */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		3D82F47C217FBC66009A727E /* MainViewController */ = {
+		3D82F501217FC75A009A727E /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F4C3217FBFBA009A727E /* SideMenuViewController.storyboard */,
-				3D82F47D217FBC66009A727E /* SideMenuViewController.swift */,
+				3D82F502217FC75A009A727E /* SideMenuViewController.swift */,
+				3D82F503217FC75A009A727E /* SideMenuViewController.storyboard */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
 		};
-		3D82F47F217FBC66009A727E /* TableViewController */ = {
+		3D82F504217FC75A009A727E /* TableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F4C4217FBFD3009A727E /* SideMenuTableViewController.storyboard */,
-				3D82F480217FBC66009A727E /* SideMenuTableViewController.swift */,
+				3D82F505217FC75A009A727E /* SideMenuTableViewController.swift */,
+				3D82F506217FC75A009A727E /* SideMenuTableViewController.storyboard */,
 			);
 			path = TableViewController;
 			sourceTree = "<group>";
 		};
-		3D82F482217FBC66009A727E /* Protocols */ = {
+		3D82F507217FC75A009A727E /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F483217FBC66009A727E /* SideMenuViewControllerDelegate.swift */,
+				3D82F508217FC75A009A727E /* SideMenuViewControllerDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		3D82F485217FBC66009A727E /* Extensions */ = {
+		3D82F509217FC75A009A727E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F486217FBC66009A727E /* UIViewController+Extensions.swift */,
-				3D82F487217FBC66009A727E /* Reusable.swift */,
-				3D82F488217FBC66009A727E /* UITableView+Extensions.swift */,
+				3D82F50A217FC75A009A727E /* SideMenuCustomizationModel.swift */,
+				3D82F50B217FC75A009A727E /* SideMenuControllerModel.swift */,
+				3D82F50C217FC75A009A727E /* SideMenuTableViewControllerConfiguration.swift */,
 			);
-			path = Extensions;
+			name = Models;
+			path = CSSimpleSideMenu/Models;
+			sourceTree = "<group>";
+		};
+		3D82F50D217FC75A009A727E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D82F50E217FC75A009A727E /* UIViewController+Extensions.swift */,
+				3D82F50F217FC75A009A727E /* Reusable.swift */,
+				3D82F510217FC75A009A727E /* UITableView+Extensions.swift */,
+			);
+			name = Extensions;
+			path = CSSimpleSideMenu/Extensions;
+			sourceTree = "<group>";
+		};
+		3D82F511217FC75A009A727E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			path = CSSimpleSideMenu/Protocols;
 			sourceTree = "<group>";
 		};
 		3DC83026398DCBAFDD751C284C1CFD82 /* Targets Support Files */ = {
@@ -441,9 +453,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D82F4CB217FC05D009A727E /* SideMenuTableViewController.storyboard in Resources */,
-				3D82F4CA217FC05A009A727E /* SideMenuTVCell.xib in Resources */,
-				3D82F4C9217FC056009A727E /* SideMenuViewController.storyboard in Resources */,
+				3D82F519217FC75A009A727E /* SideMenuTableViewController.storyboard in Resources */,
+				3D82F514217FC75A009A727E /* SideMenuTVCell.xib in Resources */,
+				3D82F517217FC75A009A727E /* SideMenuViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,19 +466,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D82F492217FBC67009A727E /* SideMenuViewControllerDelegate.swift in Sources */,
-				3D82F494217FBC67009A727E /* Reusable.swift in Sources */,
-				3D82F48C217FBC67009A727E /* SideMenuControllerModel.swift in Sources */,
-				3D82F495217FBC67009A727E /* UITableView+Extensions.swift in Sources */,
-				3D82F493217FBC67009A727E /* UIViewController+Extensions.swift in Sources */,
-				3D82F48B217FBC67009A727E /* SideMenuCustomizationModel.swift in Sources */,
-				3D82F48D217FBC67009A727E /* SideMenuTableViewControllerConfiguration.swift in Sources */,
-				3D82F48E217FBC67009A727E /* SideMenuTVCell.swift in Sources */,
-				3D82F496217FBC67009A727E /* SideMenu.swift in Sources */,
-				3D82F490217FBC67009A727E /* SideMenuViewController.swift in Sources */,
-				3D82F48F217FBC67009A727E /* SideMenuEnums.swift in Sources */,
+				3D82F516217FC75A009A727E /* SideMenuViewController.swift in Sources */,
+				3D82F51F217FC75A009A727E /* Reusable.swift in Sources */,
+				3D82F51B217FC75A009A727E /* SideMenuCustomizationModel.swift in Sources */,
+				3D82F520217FC75A009A727E /* UITableView+Extensions.swift in Sources */,
+				3D82F51E217FC75A009A727E /* UIViewController+Extensions.swift in Sources */,
 				F905632AD9665076307AC7AC1037BB02 /* CSSimpleSideMenu-dummy.m in Sources */,
-				3D82F491217FBC67009A727E /* SideMenuTableViewController.swift in Sources */,
+				3D82F515217FC75A009A727E /* SideMenuEnums.swift in Sources */,
+				3D82F51A217FC75A009A727E /* SideMenuViewControllerDelegate.swift in Sources */,
+				3D82F521217FC75A009A727E /* SideMenu.swift in Sources */,
+				3D82F513217FC75A009A727E /* SideMenuTVCell.swift in Sources */,
+				3D82F51D217FC75A009A727E /* SideMenuTableViewControllerConfiguration.swift in Sources */,
+				3D82F518217FC75A009A727E /* SideMenuTableViewController.swift in Sources */,
+				3D82F51C217FC75A009A727E /* SideMenuControllerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
