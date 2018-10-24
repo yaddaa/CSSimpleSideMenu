@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let customization = SideMenuCustomizationModel()
         customization.position = .left
 
-        SideMenu.congifure(with: controllers, customization: customization)
+        SideMenu.configure(with: controllers, customization: customization)
         
         return true
     }

@@ -4,10 +4,10 @@ public class SideMenu {
     
     // MARK: - Properties
     
-    var currentState: SideMenuEnums.MenuState = .showed
-    var mainViewController = SideMenuViewController.instance()
-    var models: [SideMenuControllerModel]!
-    var customization: SideMenuCustomizationModel!
+    private var currentState: SideMenuEnums.MenuState = .showed
+    private var mainViewController = SideMenuViewController.instance()
+    private var models: [SideMenuControllerModel]!
+    private var customization: SideMenuCustomizationModel!
     static let shared = SideMenu()
 
     // MARK: - Public
@@ -22,7 +22,7 @@ public class SideMenu {
     }
     
     // MARK: - Configuration
-    static public func congifure(with controllers: [SideMenuControllerModel], customization: SideMenuCustomizationModel?) {
+    static public func configure(with controllers: [SideMenuControllerModel], customization: SideMenuCustomizationModel?) {
         
         shared.models = controllers
         shared.customization = customization ?? SideMenuCustomizationModel()
