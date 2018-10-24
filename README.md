@@ -18,7 +18,7 @@ CSSimpleSideMenu is available through [CocoaPods](https://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CSSimpleSideMenu'
+pod 'CSSimpleSideMenu', '~> 1.0.2'
 ```
 
 ## Author
@@ -32,5 +32,4 @@ CSSimpleSideMenu is available under the MIT license. See the LICENSE file for mo
 A simple side menu for small projects
 
 
-ewrgthegwrwrghfrefw
->>>>>>> 7d1398d63ff310d16b5095d20c66017be7a65591
+<!-->>>>>>> 7d1398d63ff310d16b5095d20c66017be7a65591-->
