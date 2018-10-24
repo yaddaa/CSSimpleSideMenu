@@ -1,7 +1,6 @@
 # CSSimpleSideMenu
 <<<<<<< HEAD
 
-[![CI Status](https://img.shields.io/travis/Chelak Stas/CSSimpleSideMenu.svg?style=flat)](https://travis-ci.org/Chelak Stas/CSSimpleSideMenu)
 [![Version](https://img.shields.io/cocoapods/v/CSSimpleSideMenu.svg?style=flat)](https://cocoapods.org/pods/CSSimpleSideMenu)
 [![License](https://img.shields.io/cocoapods/l/CSSimpleSideMenu.svg?style=flat)](https://cocoapods.org/pods/CSSimpleSideMenu)
 [![Platform](https://img.shields.io/cocoapods/p/CSSimpleSideMenu.svg?style=flat)](https://cocoapods.org/pods/CSSimpleSideMenu)
@@ -11,10 +10,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Screenshots
-
-![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot.png)
-![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot1.png)
-![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot2.png)
+| ![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot.png) |
+| ![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot1.png) | ![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot2.png) 
 
 ## Requirements
 - [x] Xcode 9.4.
@@ -77,18 +74,20 @@ SideMenu.congifure(with: controllers, customization: customization)
 ```swift
 
 // background side menu settings
-public var backgroundColor: UIColor = #colorLiteral(red: 0.2091190815, green: 0.2510499954, blue: 0.3111889064, alpha: 1)
+// you can set just background colod
+public var backgroundColor: UIColor = UIColor(red: 0.209, green: 0.251, blue: 0.311, alpha: 1)
+// or background image
 public var backgroundImage: UIImage? = nil
 
 
-// background color for current selected item
+// background color for selected item
 public var menuItemsSelectedColor: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.1)
 
 public var menuItemsFont: UIFont = .boldSystemFont(ofSize: 17)
 public var menuItemsTitleColor: UIColor = .white
 public var menuItemsHeight: CGFloat = 64
 
-// set left or right side bar position
+// set .left or .right side bar position
 public var position: SideMenuEnums.Position = .left
 
 ```
@@ -103,5 +102,3 @@ CSSimpleSideMenu is available under the MIT license. See the LICENSE file for mo
 =======
 A simple side menu for small projects
 
-
->>>>>>> 7d1398d63ff310d16b5095d20c66017be7a65591

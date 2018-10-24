@@ -3,7 +3,7 @@ import UIKit
 public class SideMenuCustomizationModel {
     
     //view
-    public var backgroundColor: UIColor = #colorLiteral(red: 0.2091190815, green: 0.2510499954, blue: 0.3111889064, alpha: 1)
+    public var backgroundColor: UIColor = UIColor(red: 0.209, green: 0.251, blue: 0.311, alpha: 1)
     public var backgroundImage: UIImage? = nil
     
     //items
