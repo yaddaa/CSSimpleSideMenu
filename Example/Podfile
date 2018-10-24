@@ -6,7 +6,6 @@ target 'CSSimpleSideMenu_Example' do
   target 'CSSimpleSideMenu_Tests' do
     inherit! :search_paths
 
-
   end
 
 end

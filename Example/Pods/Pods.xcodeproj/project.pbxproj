@@ -23,9 +23,6 @@
 		3D82F520217FC75A009A727E /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F510217FC75A009A727E /* UITableView+Extensions.swift */; };
 		3D82F521217FC75A009A727E /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F512217FC75A009A727E /* SideMenu.swift */; };
 		744946500D3082C0553BEC7143887B34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9CD59979460DEC7DC1C02F9A47E7B293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A4458FF6D08BEBEEA47E059B0510658D /* Pods-CSSimpleSideMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07391A68026E2AF5278B857DD9890A60 /* Pods-CSSimpleSideMenu_Tests-dummy.m */; };
-		BE0EC240D18EEE784768FA954778B8A8 /* Pods-CSSimpleSideMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 905B14945BA198941903B573CAC340B1 /* Pods-CSSimpleSideMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E721DDDD625795D1ED467CAD4F671A4B /* CSSimpleSideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 969DF200A929CE9FB9CA932C79790465 /* CSSimpleSideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F05B90DE4B44AB64A59EEA5278989641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F905632AD9665076307AC7AC1037BB02 /* CSSimpleSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 973B39DDEB9CBEE228040AE34E1BFF9F /* CSSimpleSideMenu-dummy.m */; };
@@ -87,20 +84,11 @@
 		BB1E0846A81B34D5151CA7D25AD88B98 /* Pods-CSSimpleSideMenu_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSimpleSideMenu_Tests-resources.sh"; sourceTree = "<group>"; };
 		BBBBD7C0B7AA83A44D8B1786371F37CF /* Pods_CSSimpleSideMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSimpleSideMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C02B7D2894560B3E1777218CFE0782 /* CSSimpleSideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSSimpleSideMenu.xcconfig; sourceTree = "<group>"; };
-		CB3924A0E233B7F25D06CBC249DAE908 /* Pods_CSSimpleSideMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSimpleSideMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2DE9BDF5305823B3A9B1B0B226596A /* Pods-CSSimpleSideMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSimpleSideMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4348D1646C63A1669B5641A6A41121D /* Pods-CSSimpleSideMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSSimpleSideMenu_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		255332151E99000E3D81484B60F8D365 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9CD59979460DEC7DC1C02F9A47E7B293 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		496EAF2F97D07D93142FBA15F96229F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,7 +293,6 @@
 			children = (
 				4CEC988EDA2165F4B8812F3620616319 /* CSSimpleSideMenu.framework */,
 				BBBBD7C0B7AA83A44D8B1786371F37CF /* Pods_CSSimpleSideMenu_Example.framework */,
-				CB3924A0E233B7F25D06CBC249DAE908 /* Pods_CSSimpleSideMenu_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -343,14 +330,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F0BA78A94B847E0692C726A898F8D72 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE0EC240D18EEE784768FA954778B8A8 /* Pods-CSSimpleSideMenu_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CE4B28B0748AEB046DD6074FDF2E5BCC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,23 +357,6 @@
 			name = CSSimpleSideMenu;
 			productName = CSSimpleSideMenu;
 			productReference = 4CEC988EDA2165F4B8812F3620616319 /* CSSimpleSideMenu.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		30A4F225E9EABD6ABADA0CCA77696B1A /* Pods-CSSimpleSideMenu_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C9556A6F35D12F1DBF91CDE9B216AC9 /* Build configuration list for PBXNativeTarget "Pods-CSSimpleSideMenu_Tests" */;
-			buildPhases = (
-				96AFD532B58F7CFCEDF792E6AC8EEFAB /* Sources */,
-				255332151E99000E3D81484B60F8D365 /* Frameworks */,
-				8F0BA78A94B847E0692C726A898F8D72 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-CSSimpleSideMenu_Tests";
-			productName = "Pods-CSSimpleSideMenu_Tests";
-			productReference = CB3924A0E233B7F25D06CBC249DAE908 /* Pods_CSSimpleSideMenu_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AF6E22B850805580BF1B43095E59E296 /* Pods-CSSimpleSideMenu_Example */ = {
@@ -443,7 +405,6 @@
 			targets = (
 				049B47DBAE637A4642BE577E6B618DD2 /* CSSimpleSideMenu */,
 				AF6E22B850805580BF1B43095E59E296 /* Pods-CSSimpleSideMenu_Example */,
-				30A4F225E9EABD6ABADA0CCA77696B1A /* Pods-CSSimpleSideMenu_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -490,14 +451,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96AFD532B58F7CFCEDF792E6AC8EEFAB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4458FF6D08BEBEEA47E059B0510658D /* Pods-CSSimpleSideMenu_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -525,7 +478,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CSSimpleSideMenu_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CSSimpleSideMenu_Example/Pods-CSSimpleSideMenu_Example.modulemap";
@@ -596,7 +549,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -656,7 +609,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
@@ -682,7 +635,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CSSimpleSideMenu/CSSimpleSideMenu-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CSSimpleSideMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CSSimpleSideMenu/CSSimpleSideMenu.modulemap";
 				PRODUCT_NAME = CSSimpleSideMenu;
@@ -713,7 +666,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CSSimpleSideMenu_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CSSimpleSideMenu_Example/Pods-CSSimpleSideMenu_Example.modulemap";
@@ -732,71 +685,6 @@
 			};
 			name = Release;
 		};
-		C81C1EDF4BD0270197731D4EE51021FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34451FEF900897843C68BA3BCB506801 /* Pods-CSSimpleSideMenu_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CSSimpleSideMenu_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CSSimpleSideMenu_Tests/Pods-CSSimpleSideMenu_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CSSimpleSideMenu_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DAB17431E9F1854DF5F5B104C21F8577 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF2DE9BDF5305823B3A9B1B0B226596A /* Pods-CSSimpleSideMenu_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CSSimpleSideMenu_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CSSimpleSideMenu_Tests/Pods-CSSimpleSideMenu_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CSSimpleSideMenu_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		DE5C8658BFD4B2CB717BC98C2AE30ECC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4C02B7D2894560B3E1777218CFE0782 /* CSSimpleSideMenu.xcconfig */;
@@ -814,7 +702,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CSSimpleSideMenu/CSSimpleSideMenu-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CSSimpleSideMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CSSimpleSideMenu/CSSimpleSideMenu.modulemap";
 				PRODUCT_NAME = CSSimpleSideMenu;
@@ -832,15 +720,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C9556A6F35D12F1DBF91CDE9B216AC9 /* Build configuration list for PBXNativeTarget "Pods-CSSimpleSideMenu_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAB17431E9F1854DF5F5B104C21F8577 /* Debug */,
-				C81C1EDF4BD0270197731D4EE51021FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
