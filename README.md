@@ -10,8 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Screenshots
-| ![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot.png) |
-| ![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot1.png) | ![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot2.png) 
+[](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot.png) [](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot1.png) [](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot2.png) 
 
 ## Requirements
 - [x] Xcode 9.4.
