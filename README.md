@@ -32,7 +32,7 @@ $ gem install cocoapods
 To integrate SideMenu into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'CSSimpleSideMenu', '~> 1.0.2'
+pod 'CSSimpleSideMenu', '~> 1.0.3'
 ```
 
 Then, run the following command:
