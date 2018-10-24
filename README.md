@@ -12,7 +12,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Screenshots
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot.png" width="320px" height="568px"</img> 
+    <img src="https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot.png" width="320px" height="480px"</img> 
+     <img src="https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot1.png" width="320px" height="480px"</img> 
+      <img src="https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot2.png" width="320px" height="480px"</img> 
 </div>
 
 ## Requirements
