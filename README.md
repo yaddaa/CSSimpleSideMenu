@@ -10,15 +10,87 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Screenshots
+
+![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot.png)
+![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot1.png)
+![](https://raw.githubusercontent.com/yaddaa/CSSimpleSideMenu/master/etc/Screenshot2.png)
+
 ## Requirements
+- [x] Xcode 9.4.
+- [x] Swift 4.1.
+- [x] iOS 10 or higher.
 
 ## Installation
+### CocoaPods
 
-CSSimpleSideMenu is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+To integrate SideMenu into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 pod 'CSSimpleSideMenu', '~> 1.0.2'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+## Usage
+
+First Step:
+```swift
+import CSSimpleSideMenu
+```
+
+Second Step:
+```swift
+
+//create controllers like this
+
+public init(with controller: UIViewController, name: String)
+
+//example
+let controllers = [
+SideMenuControllerModel(with: FirstViewController.instance(), name: "First"),
+SideMenuControllerModel(with: SecondViewController.instance(), name: "Second")
+]
+
+// create customization model
+let customization = SideMenuCustomizationModel()
+
+//customize
+customization.position = .left
+
+//configure
+SideMenu.congifure(with: controllers, customization: customization)
+// need to call at start the application
+```
+## Customization Model Properties
+
+```swift
+
+// background side menu settings
+public var backgroundColor: UIColor = #colorLiteral(red: 0.2091190815, green: 0.2510499954, blue: 0.3111889064, alpha: 1)
+public var backgroundImage: UIImage? = nil
+
+
+// background color for current selected item
+public var menuItemsSelectedColor: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.1)
+
+public var menuItemsFont: UIFont = .boldSystemFont(ofSize: 17)
+public var menuItemsTitleColor: UIColor = .white
+public var menuItemsHeight: CGFloat = 64
+
+// set left or right side bar position
+public var position: SideMenuEnums.Position = .left
+
 ```
 
 ## Author
@@ -32,4 +104,4 @@ CSSimpleSideMenu is available under the MIT license. See the LICENSE file for mo
 A simple side menu for small projects
 
 
-<!-->>>>>>> 7d1398d63ff310d16b5095d20c66017be7a65591-->
+>>>>>>> 7d1398d63ff310d16b5095d20c66017be7a65591

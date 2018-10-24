@@ -7,7 +7,7 @@ public class SideMenuCustomizationModel {
     public var backgroundImage: UIImage? = nil
     
     //items
-    public var menuItemsSelectedColor: UIColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0).withAlphaComponent(0.1)
+    public var menuItemsSelectedColor: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.1)
     public var menuItemsFont: UIFont = .boldSystemFont(ofSize: 17)
     public var menuItemsTitleColor: UIColor = .white
     public var menuItemsHeight: CGFloat = 64
