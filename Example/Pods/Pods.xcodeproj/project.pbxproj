@@ -114,7 +114,6 @@
 				3D82F512217FC75A009A727E /* SideMenu.swift */,
 				3D82F50D217FC75A009A727E /* Extensions */,
 				3D82F509217FC75A009A727E /* Models */,
-				3D82F511217FC75A009A727E /* Protocols */,
 				3D82F4FA217FC75A009A727E /* UI Layer */,
 				F4640DC0CD40A8DDF656F0CE8FCDE2D5 /* Support Files */,
 			);
@@ -214,14 +213,6 @@
 			);
 			name = Extensions;
 			path = CSSimpleSideMenu/Extensions;
-			sourceTree = "<group>";
-		};
-		3D82F511217FC75A009A727E /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Protocols;
-			path = CSSimpleSideMenu/Protocols;
 			sourceTree = "<group>";
 		};
 		3DC83026398DCBAFDD751C284C1CFD82 /* Targets Support Files */ = {
