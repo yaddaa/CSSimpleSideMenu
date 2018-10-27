@@ -7,9 +7,13 @@ final class SideMenuTableViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var topImageView: UIImageView!
+    @IBOutlet weak var bottomImageView: UIImageView!
     
     // MARK: - Constraints
     
+    @IBOutlet weak var bottomImageContentViewConstraint: NSLayoutConstraint!
+    @IBOutlet weak var topImageContentViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var contentViewLeadingConstraint: NSLayoutConstraint!
     @IBOutlet weak var contentViewTrailingConstraint: NSLayoutConstraint!
     
@@ -36,10 +40,24 @@ final class SideMenuTableViewController: UIViewController {
     
     private func configure() {
         configuration = SideMenu.configuration()
-
+        
+        //set background
         backgroundImageView.image = configuration.customization.backgroundImage
         view.backgroundColor = configuration.customization.backgroundColor
         
+        // set images
+        topImageView.image = configuration.customization.topImage
+        bottomImageView.image = configuration.customization.bottomImage
+        
+        // set content mode
+        topImageView.contentMode = configuration.customization.imagesContentMode
+        bottomImageView.contentMode = configuration.customization.imagesContentMode
+        
+        // set heights
+        topImageContentViewHeightConstraint.constant = configuration.customization.topImageHeight
+        bottomImageContentViewConstraint.constant = configuration.customization.bottomImageHeight
+        
+        // set position
         let offset = view.bounds.width * 0.15
         if configuration.customization.position == .right {
             contentViewLeadingConstraint.constant = offset
