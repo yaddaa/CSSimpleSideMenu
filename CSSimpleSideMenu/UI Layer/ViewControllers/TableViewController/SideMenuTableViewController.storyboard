@@ -13,7 +13,7 @@
         <!--Side Menu Table View Controller-->
         <scene sceneID="eft-8p-jiJ">
             <objects>
-                <viewController storyboardIdentifier="SideMenuTableViewController" id="84j-Sq-Xsb" customClass="SideMenuTableViewController" customModule="CSSimpleSideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SideMenuTableViewController" id="84j-Sq-Xsb" customClass="SideMenuTableViewController" customModule="CSSimpleSideMenu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2qI-3X-Pae">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,16 +31,16 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="doL-tq-3vd">
-                                                        <rect key="frame" x="10" y="10" width="300" height="119.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstItem="doL-tq-3vd" firstAttribute="leading" secondItem="jev-e2-S1O" secondAttribute="leading" constant="10" id="7K9-4p-0JH"/>
-                                                    <constraint firstAttribute="bottom" secondItem="doL-tq-3vd" secondAttribute="bottom" constant="10" id="O3Q-0f-VM8"/>
+                                                    <constraint firstItem="doL-tq-3vd" firstAttribute="leading" secondItem="jev-e2-S1O" secondAttribute="leading" id="7K9-4p-0JH"/>
+                                                    <constraint firstAttribute="bottom" secondItem="doL-tq-3vd" secondAttribute="bottom" id="O3Q-0f-VM8"/>
                                                     <constraint firstAttribute="height" constant="140" id="Wnw-TE-bSj"/>
-                                                    <constraint firstItem="doL-tq-3vd" firstAttribute="top" secondItem="jev-e2-S1O" secondAttribute="top" constant="10" id="Yjb-vR-LJ4"/>
-                                                    <constraint firstAttribute="trailing" secondItem="doL-tq-3vd" secondAttribute="trailing" constant="10" id="sb9-pE-yH7"/>
+                                                    <constraint firstItem="doL-tq-3vd" firstAttribute="top" secondItem="jev-e2-S1O" secondAttribute="top" id="Yjb-vR-LJ4"/>
+                                                    <constraint firstAttribute="trailing" secondItem="doL-tq-3vd" secondAttribute="trailing" id="sb9-pE-yH7"/>
                                                 </constraints>
                                             </view>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TGn-ss-T8x">
@@ -55,7 +55,7 @@
                                                 <rect key="frame" x="0.0" y="408" width="320" height="140"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Aog-MT-7Dn">
-                                                        <rect key="frame" x="10" y="10" width="300" height="119.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
                                                     </imageView>
                                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v. 1.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yea-gh-lip">
                                                         <rect key="frame" x="139.5" y="61.5" width="41.5" height="16"/>
@@ -66,12 +66,12 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstItem="Aog-MT-7Dn" firstAttribute="top" secondItem="F7A-23-Hqk" secondAttribute="top" constant="10" id="0pb-WG-r56"/>
-                                                    <constraint firstAttribute="trailing" secondItem="Aog-MT-7Dn" secondAttribute="trailing" constant="10" id="6De-5A-h0K"/>
-                                                    <constraint firstItem="Aog-MT-7Dn" firstAttribute="leading" secondItem="F7A-23-Hqk" secondAttribute="leading" constant="10" id="9VL-mM-Rv1"/>
+                                                    <constraint firstItem="Aog-MT-7Dn" firstAttribute="top" secondItem="F7A-23-Hqk" secondAttribute="top" id="0pb-WG-r56"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Aog-MT-7Dn" secondAttribute="trailing" id="6De-5A-h0K"/>
+                                                    <constraint firstItem="Aog-MT-7Dn" firstAttribute="leading" secondItem="F7A-23-Hqk" secondAttribute="leading" id="9VL-mM-Rv1"/>
                                                     <constraint firstAttribute="height" constant="140" id="DOI-O9-cpX"/>
                                                     <constraint firstItem="yea-gh-lip" firstAttribute="centerX" secondItem="F7A-23-Hqk" secondAttribute="centerX" id="gnj-Ym-Kis"/>
-                                                    <constraint firstAttribute="bottom" secondItem="Aog-MT-7Dn" secondAttribute="bottom" constant="10" id="mqW-jy-Pe3"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Aog-MT-7Dn" secondAttribute="bottom" id="mqW-jy-Pe3"/>
                                                     <constraint firstItem="yea-gh-lip" firstAttribute="centerY" secondItem="F7A-23-Hqk" secondAttribute="centerY" id="zfd-sM-G8c"/>
                                                 </constraints>
                                             </view>
