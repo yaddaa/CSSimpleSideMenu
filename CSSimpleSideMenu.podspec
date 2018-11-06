@@ -31,11 +31,13 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.1'
 
-  s.source_files = 'CSSimpleSideMenu/**/*.{swift}'
+  s.source_files = 'CSSimpleSideMenu/**/*'
 
-  s.resource_bundles = {
-    'CSSimpleSideMenu' => ['CSSimpleSideMenu/**/*.{storyboard}']
-  }
+  # s.resources = ['CSSimpleSideMenu/**/*.{storyboard}']
+
+  # s.resource_bundles = {
+  #     'CSSimpleSideMenu' => ['CSSimpleSideMenu/**/*.{storyboard}']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
