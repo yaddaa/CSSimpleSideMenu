@@ -33,11 +33,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'CSSimpleSideMenu/**/*'
 
-  # s.resources = ['CSSimpleSideMenu/**/*.{storyboard}']
-
-  # s.resource_bundles = {
-  #     'CSSimpleSideMenu' => ['CSSimpleSideMenu/**/*.{storyboard}']
-  # }
+  s.resource_bundles = {
+      'CSSimpleSideMenu' => ['CSSimpleSideMenu/**/*.{storyboard}']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
