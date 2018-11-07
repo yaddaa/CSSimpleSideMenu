@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_CSSimpleSideMenu_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_CSSimpleSideMenu_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_CSSimpleSideMenu_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_CSSimpleSideMenu_TestsVersionString[];
 

@@ -1,11 +1,3 @@
-//
-//  Reusable.swift
-//  Hookers
-//
-//  Created by Hookers on 12/26/17.
-//  Copyright © 2017 Hookers. All rights reserved.
-//
-
 import UIKit
 
 protocol Reusable: class {
@@ -34,7 +26,7 @@ protocol NibLoadable: class {
 extension NibLoadable {
     
     static var nib: UINib {
-        return UINib(nibName: nibName, bundle: Bundle.podBundle(for: self))
+        return UINib(nibName: nibName, bundle: Bundle(for: self))
     }
     
     static var nibName: String {

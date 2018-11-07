@@ -1,8 +1,11 @@
 use_frameworks!
 
 target 'CSSimpleSideMenu_Example' do
-    
   pod 'CSSimpleSideMenu', :path => '../'
 
+  target 'CSSimpleSideMenu_Tests' do
+    inherit! :search_paths
+
+  end
 
 end

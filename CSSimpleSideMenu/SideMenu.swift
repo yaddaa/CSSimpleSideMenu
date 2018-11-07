@@ -5,7 +5,7 @@ public class SideMenu {
     // MARK: - Properties
     
     private var currentState: SideMenuEnums.MenuState = .showed
-    private var mainViewController = SideMenuViewController.instanceInitial()
+    private var mainViewController = SideMenuViewController.instance()
     private var models: [SideMenuControllerModel]!
     private var customization: SideMenuCustomizationModel!
     static let shared = SideMenu()

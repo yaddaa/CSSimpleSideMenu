@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B4C50E183239ED8D314B778 /* Pods_CSSimpleSideMenu_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A13FF0DC40E4A85DBBAD5F6 /* Pods_CSSimpleSideMenu_Example.framework */; };
 		3D82F4C0217FBCDD009A727E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F4BF217FBCDD009A727E /* AppDelegate.swift */; };
+		3D82F52A217FC7CC009A727E /* CSSimpleSideMenu.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F529217FC7CC009A727E /* CSSimpleSideMenu.podspec */; };
 		3D82F52D217FC830009A727E /* FirstViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F52B217FC830009A727E /* FirstViewController.storyboard */; };
 		3D82F52E217FC830009A727E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F52C217FC830009A727E /* FirstViewController.swift */; };
 		3D82F531217FC838009A727E /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F52F217FC837009A727E /* SecondViewController.storyboard */; };
@@ -23,6 +24,7 @@
 		18ABA205A6AB7D2B02EFB3C9 /* Pods_CSSimpleSideMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSimpleSideMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CC33373E796472FABF637C /* Pods-CSSimpleSideMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSimpleSideMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSSimpleSideMenu_Tests/Pods-CSSimpleSideMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3D82F4BF217FBCDD009A727E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D82F529217FC7CC009A727E /* CSSimpleSideMenu.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSSimpleSideMenu.podspec; path = ../CSSimpleSideMenu.podspec; sourceTree = "<group>"; };
 		3D82F52B217FC830009A727E /* FirstViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstViewController.storyboard; sourceTree = "<group>"; };
 		3D82F52C217FC830009A727E /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		3D82F52F217FC837009A727E /* SecondViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondViewController.storyboard; sourceTree = "<group>"; };
@@ -35,7 +37,9 @@
 		607FACD01AFB9204008FA782 /* CSSimpleSideMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSSimpleSideMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F07D40F1481BDD712C4E145 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8A13FF0DC40E4A85DBBAD5F6 /* Pods_CSSimpleSideMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSimpleSideMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D61EB347624D8540527E8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EB7E28E8EBA097B22380A107 /* Pods-CSSimpleSideMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSimpleSideMenu_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSSimpleSideMenu_Example/Pods-CSSimpleSideMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +123,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CSSimpleSideMenu */,
 				607FACD11AFB9204008FA782 /* Products */,
 				3627A4072598D7990C7000FC /* Pods */,
@@ -155,6 +160,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				3D82F529217FC7CC009A727E /* CSSimpleSideMenu.podspec */,
+				94D61EB347624D8540527E8D /* README.md */,
+				7F07D40F1481BDD712C4E145 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +182,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				A044804F8EA9B2CBFFF32CE3 /* [CP] Embed Pods Frameworks */,
+				F2325845DA4AAC85775539E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,6 +236,7 @@
 				3D82F536217FC841009A727E /* ThirdViewController.storyboard in Resources */,
 				3D82F52D217FC830009A727E /* FirstViewController.storyboard in Resources */,
 				3D82F531217FC838009A727E /* SecondViewController.storyboard in Resources */,
+				3D82F52A217FC7CC009A727E /* CSSimpleSideMenu.podspec in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +278,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2325845DA4AAC85775539E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSSimpleSideMenu_Example/Pods-CSSimpleSideMenu_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
