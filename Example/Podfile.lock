@@ -1,16 +1,16 @@
 PODS:
-  - CSSimpleSideMenu (0.1.0)
+  - CSSimpleSideMenu (1.0.6)
 
 DEPENDENCIES:
   - CSSimpleSideMenu (from `../`)
 
 EXTERNAL SOURCES:
   CSSimpleSideMenu:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  CSSimpleSideMenu: 1e05e63a0a5ada9e492572b520cde0a9ee337716
+  CSSimpleSideMenu: 3ba8cf43bd3acc5afc71b0df912771e79c64067d
 
-PODFILE CHECKSUM: 9921069aad8d8cfcf1cce02e9181fed1857a3bc8
+PODFILE CHECKSUM: 0078855a3a918a99339c0e4ce7beadf00cd33895
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

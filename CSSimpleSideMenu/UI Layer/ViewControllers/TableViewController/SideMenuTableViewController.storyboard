@@ -13,7 +13,7 @@
         <!--Side Menu Table View Controller-->
         <scene sceneID="eft-8p-jiJ">
             <objects>
-                <viewController storyboardIdentifier="SideMenuTableViewController" id="84j-Sq-Xsb" customClass="SideMenuTableViewController" customModule="CSSimpleSideMenu" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SideMenuTableViewController" id="84j-Sq-Xsb" customClass="SideMenuTableViewController" customModule="CSSimpleSideMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2qI-3X-Pae">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

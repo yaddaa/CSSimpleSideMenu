@@ -7,28 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D82F513217FC75A009A727E /* SideMenuTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F4FC217FC75A009A727E /* SideMenuTVCell.swift */; };
-		3D82F514217FC75A009A727E /* SideMenuTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F4FD217FC75A009A727E /* SideMenuTVCell.xib */; };
-		3D82F515217FC75A009A727E /* SideMenuEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F4FF217FC75A009A727E /* SideMenuEnums.swift */; };
-		3D82F516217FC75A009A727E /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F502217FC75A009A727E /* SideMenuViewController.swift */; };
-		3D82F517217FC75A009A727E /* SideMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F503217FC75A009A727E /* SideMenuViewController.storyboard */; };
-		3D82F518217FC75A009A727E /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F505217FC75A009A727E /* SideMenuTableViewController.swift */; };
-		3D82F519217FC75A009A727E /* SideMenuTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F506217FC75A009A727E /* SideMenuTableViewController.storyboard */; };
-		3D82F51A217FC75A009A727E /* SideMenuViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F508217FC75A009A727E /* SideMenuViewControllerDelegate.swift */; };
-		3D82F51B217FC75A009A727E /* SideMenuCustomizationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F50A217FC75A009A727E /* SideMenuCustomizationModel.swift */; };
-		3D82F51C217FC75A009A727E /* SideMenuControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F50B217FC75A009A727E /* SideMenuControllerModel.swift */; };
-		3D82F51D217FC75A009A727E /* SideMenuTableViewControllerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F50C217FC75A009A727E /* SideMenuTableViewControllerConfiguration.swift */; };
-		3D82F51E217FC75A009A727E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F50E217FC75A009A727E /* UIViewController+Extensions.swift */; };
-		3D82F51F217FC75A009A727E /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F50F217FC75A009A727E /* Reusable.swift */; };
-		3D82F520217FC75A009A727E /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F510217FC75A009A727E /* UITableView+Extensions.swift */; };
-		3D82F521217FC75A009A727E /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F512217FC75A009A727E /* SideMenu.swift */; };
-		3D8A27552192602000EC3CA5 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A27542192602000EC3CA5 /* Bundle+Extension.swift */; };
-		744946500D3082C0553BEC7143887B34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E721DDDD625795D1ED467CAD4F671A4B /* CSSimpleSideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 969DF200A929CE9FB9CA932C79790465 /* CSSimpleSideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27708790E38AFE2409836BB015DECC92 /* SideMenuTableViewControllerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C2A7964C747E3162215A1262B926C /* SideMenuTableViewControllerConfiguration.swift */; };
+		4B0602E705F8AC806754D582618665AC /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1E8CA41E1E874B41E4DC09A929A6F /* UIViewController+Extensions.swift */; };
+		4F313871CD64981E51E6F553B4465EC9 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FB2BA4D75F5BB85D7B988AC7F466F /* SideMenuTableViewController.swift */; };
+		6A44720C80387D04B6E0F00B05CDB86E /* SideMenuControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1C9D715515D26C4385B32BAB75FA3 /* SideMenuControllerModel.swift */; };
+		6B59B7D53197A54154392776C314E24E /* SideMenuTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD47D508F2CB3FE4D3F1365ED2BE293 /* SideMenuTableViewController.storyboard */; };
+		7DA5D493F12EF26900273771DE005115 /* SideMenuViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B4FB1BB6AA5AFEE6C30A5B4131399 /* SideMenuViewControllerDelegate.swift */; };
+		81804DE061E1380537A6F7B35E7D5F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8CAD2E061DCA401170CF1356CB28061B /* SideMenuCustomizationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F356A0025806078E5EBE4D9EA9906FCC /* SideMenuCustomizationModel.swift */; };
+		A1A90B5DD7A7DE7A4558016073EA264D /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8775A976DE48673F93368DCE3121A9B7 /* Bundle+Extension.swift */; };
+		A271BFD46DFE619618D7CAA88066E207 /* SideMenuEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F531A109F491687B36B43B07CE8552 /* SideMenuEnums.swift */; };
+		AA5587A4D87D40B7969E5E460E3B50AA /* CSSimpleSideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B38B8227AB8677602139D8A1715721C7 /* CSSimpleSideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB99EB8D712158F36391B7FF3FEE63F5 /* SideMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9765095F0D92CBA50F56FEC9CE82768 /* SideMenuViewController.storyboard */; };
+		AF8D229D888BCCEB93785A3E35893FB5 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF86AA5CB03A3A875C4CDCCBE53EE8 /* SideMenu.swift */; };
+		B89C11A1B5502D874CBDD215CFA2D8BB /* SideMenuTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11D927E77F5CA8FE0F03D9B50BC7A89 /* SideMenuTVCell.xib */; };
+		C0A9241727325133684E686D47B1E827 /* CSSimpleSideMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F2649A8B66AC50735213108EC60FD9D /* CSSimpleSideMenu.bundle */; };
+		C875C41F95D4BCBE5F20E5F44D675371 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441F82A646FB1B4182EC5D287F7ECE0 /* UITableView+Extensions.swift */; };
+		D37D4F7B7BAB90BD5C36EA662E4190AE /* CSSimpleSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A2BD4CDADC8FE4E121E2A67390FB /* CSSimpleSideMenu-dummy.m */; };
+		DE6C53C1316D08232C6072C848E06B5E /* SideMenuTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688B2025A5503E9B37B1BEF3E9CAA1C2 /* SideMenuTVCell.swift */; };
 		F05B90DE4B44AB64A59EEA5278989641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F905632AD9665076307AC7AC1037BB02 /* CSSimpleSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 973B39DDEB9CBEE228040AE34E1BFF9F /* CSSimpleSideMenu-dummy.m */; };
-		FA4A1CE827A45F31C4C99D5267F52751 /* Pods-CSSimpleSideMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D4A0C210F517D27203731BE2B734AB /* Pods-CSSimpleSideMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAEF1C40B43085D6F21E2F7F4FA564E8 /* Pods-CSSimpleSideMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B022ED8A154E1640E0571F3F7876DF6E /* Pods-CSSimpleSideMenu_Example-dummy.m */; };
+		F7C43F7EFA70304303D9A67C1D10EE9A /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA76B3C7900B1D08CE013743B2D88EB /* Reusable.swift */; };
+		FA4A1CE827A45F31C4C99D5267F52751 /* Pods-CSSimpleSideMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C499E33850BC55D63007B8A5C729F2E6 /* Pods-CSSimpleSideMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAEF1C40B43085D6F21E2F7F4FA564E8 /* Pods-CSSimpleSideMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6547E0C9C7013C475969157186DD7764 /* Pods-CSSimpleSideMenu_Example-dummy.m */; };
+		FB5918AE5FF0B765486B2D52EE7F2C8D /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDCB135602B50D27CF96B12616C8F76 /* SideMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,58 +37,60 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 049B47DBAE637A4642BE577E6B618DD2;
+			remoteGlobalIDString = 68C86E598FC37365B5E983361EE2066E;
 			remoteInfo = CSSimpleSideMenu;
+		};
+		7B8C02FC3F75F2A4E156BCE7328B17F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCE83794899B213535F8001325313D9;
+			remoteInfo = "CSSimpleSideMenu-CSSimpleSideMenu";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07391A68026E2AF5278B857DD9890A60 /* Pods-CSSimpleSideMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSimpleSideMenu_Tests-dummy.m"; sourceTree = "<group>"; };
-		0E5EE6A61F53DCF06F8A081EC7990036 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C6306558163CD06DA2D3401418F78B9 /* Pods-CSSimpleSideMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSSimpleSideMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		25C430D97E0F503075249C4565CFE245 /* Pods-CSSimpleSideMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSSimpleSideMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		286578A32B397A379F2ABD69BEB87B0C /* Pods-CSSimpleSideMenu_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSimpleSideMenu_Example-resources.sh"; sourceTree = "<group>"; };
-		31C0A6DF6502CBE7C5BE7576D17C0C31 /* Pods-CSSimpleSideMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSSimpleSideMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3246948570C8613EED27AAF7CC6725F9 /* Pods-CSSimpleSideMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSSimpleSideMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		34451FEF900897843C68BA3BCB506801 /* Pods-CSSimpleSideMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSimpleSideMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		346E723888102668CE62B89D56369FBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A848B3A9CB0A2D256581E01FD666F00 /* Pods-CSSimpleSideMenu_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSimpleSideMenu_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3D82F4FC217FC75A009A727E /* SideMenuTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTVCell.swift; sourceTree = "<group>"; };
-		3D82F4FD217FC75A009A727E /* SideMenuTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuTVCell.xib; sourceTree = "<group>"; };
-		3D82F4FF217FC75A009A727E /* SideMenuEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuEnums.swift; sourceTree = "<group>"; };
-		3D82F502217FC75A009A727E /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
-		3D82F503217FC75A009A727E /* SideMenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenuViewController.storyboard; sourceTree = "<group>"; };
-		3D82F505217FC75A009A727E /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
-		3D82F506217FC75A009A727E /* SideMenuTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenuTableViewController.storyboard; sourceTree = "<group>"; };
-		3D82F508217FC75A009A727E /* SideMenuViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewControllerDelegate.swift; sourceTree = "<group>"; };
-		3D82F50A217FC75A009A727E /* SideMenuCustomizationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCustomizationModel.swift; sourceTree = "<group>"; };
-		3D82F50B217FC75A009A727E /* SideMenuControllerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuControllerModel.swift; sourceTree = "<group>"; };
-		3D82F50C217FC75A009A727E /* SideMenuTableViewControllerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewControllerConfiguration.swift; sourceTree = "<group>"; };
-		3D82F50E217FC75A009A727E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
-		3D82F50F217FC75A009A727E /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
-		3D82F510217FC75A009A727E /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
-		3D82F512217FC75A009A727E /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenu.swift; path = CSSimpleSideMenu/SideMenu.swift; sourceTree = "<group>"; };
-		3D8A27542192602000EC3CA5 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
-		4970BFB2CD9D4381026E61F399C1E11B /* Pods-CSSimpleSideMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSimpleSideMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4CEC988EDA2165F4B8812F3620616319 /* CSSimpleSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSSimpleSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58C13D922C417DE4BDACCE27A3801663 /* Pods-CSSimpleSideMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSSimpleSideMenu_Example.modulemap"; sourceTree = "<group>"; };
+		0F9FB2BA4D75F5BB85D7B988AC7F466F /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		1CF153F71D52ED12AEAB10A654815FA7 /* CSSimpleSideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSSimpleSideMenu-prefix.pch"; sourceTree = "<group>"; };
+		1E6C827B2787E0FBB1B5C2389BCB467D /* ResourceBundle-CSSimpleSideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CSSimpleSideMenu-Info.plist"; sourceTree = "<group>"; };
+		298B4FB1BB6AA5AFEE6C30A5B4131399 /* SideMenuViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SideMenuViewControllerDelegate.swift; sourceTree = "<group>"; };
+		29CF86AA5CB03A3A875C4CDCCBE53EE8 /* SideMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenu.swift; path = CSSimpleSideMenu/SideMenu.swift; sourceTree = "<group>"; };
+		2F0CC1BBA04B4B8C19FA2E167241076C /* Pods-CSSimpleSideMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSimpleSideMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3BB0C3F915EC954164D4A0C2A8B82971 /* CSSimpleSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSSimpleSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFB44BCFFEFEEF9837C59CAC3EB31DB /* CSSimpleSideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSSimpleSideMenu.modulemap; sourceTree = "<group>"; };
+		3CD6BFB5C246A27701904CBED7D594FB /* Pods-CSSimpleSideMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSSimpleSideMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C6C2A7964C747E3162215A1262B926C /* SideMenuTableViewControllerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewControllerConfiguration.swift; sourceTree = "<group>"; };
+		56E1A2BD4CDADC8FE4E121E2A67390FB /* CSSimpleSideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSSimpleSideMenu-dummy.m"; sourceTree = "<group>"; };
+		58F531A109F491687B36B43B07CE8552 /* SideMenuEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SideMenuEnums.swift; sourceTree = "<group>"; };
+		597D52C15B5CEFBDB86B0186DE75EA24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6965A5FE7CA64000E1762D66B8AD94E1 /* Pods-CSSimpleSideMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSimpleSideMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7829724DF6A3141038D8C8037003316B /* Pods-CSSimpleSideMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSimpleSideMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		820D22D4B78950C0DCE037C79E14DCBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83644BD0D1F71393B31C6B86C41006FB /* CSSimpleSideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSSimpleSideMenu-prefix.pch"; sourceTree = "<group>"; };
-		905B14945BA198941903B573CAC340B1 /* Pods-CSSimpleSideMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSimpleSideMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
+		630A97A1D0DF6E12349971D1D4D3ACBB /* Pods-CSSimpleSideMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSimpleSideMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6547E0C9C7013C475969157186DD7764 /* Pods-CSSimpleSideMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSimpleSideMenu_Example-dummy.m"; sourceTree = "<group>"; };
+		688B2025A5503E9B37B1BEF3E9CAA1C2 /* SideMenuTVCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SideMenuTVCell.swift; sourceTree = "<group>"; };
+		69D9DB92F9A27D105DF49E9B986E1B35 /* Pods_CSSimpleSideMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSimpleSideMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDCB135602B50D27CF96B12616C8F76 /* SideMenuViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		6FE1E8CA41E1E874B41E4DC09A929A6F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		84334CE8BDC4EFC2E8CAE61B205F9199 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8775A976DE48673F93368DCE3121A9B7 /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		8AAAECE2768ED5548844903690820DE4 /* Pods-CSSimpleSideMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSSimpleSideMenu_Example.modulemap"; sourceTree = "<group>"; };
+		8F2649A8B66AC50735213108EC60FD9D /* CSSimpleSideMenu.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSSimpleSideMenu.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		969DF200A929CE9FB9CA932C79790465 /* CSSimpleSideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSSimpleSideMenu-umbrella.h"; sourceTree = "<group>"; };
-		973B39DDEB9CBEE228040AE34E1BFF9F /* CSSimpleSideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSSimpleSideMenu-dummy.m"; sourceTree = "<group>"; };
-		A5D4A0C210F517D27203731BE2B734AB /* Pods-CSSimpleSideMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSimpleSideMenu_Example-umbrella.h"; sourceTree = "<group>"; };
-		B022ED8A154E1640E0571F3F7876DF6E /* Pods-CSSimpleSideMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSimpleSideMenu_Example-dummy.m"; sourceTree = "<group>"; };
-		B498142BF6FEDF3472D1DDF99D51011D /* CSSimpleSideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSSimpleSideMenu.modulemap; sourceTree = "<group>"; };
-		BB1E0846A81B34D5151CA7D25AD88B98 /* Pods-CSSimpleSideMenu_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSimpleSideMenu_Tests-resources.sh"; sourceTree = "<group>"; };
-		BBBBD7C0B7AA83A44D8B1786371F37CF /* Pods_CSSimpleSideMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSimpleSideMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4C02B7D2894560B3E1777218CFE0782 /* CSSimpleSideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSSimpleSideMenu.xcconfig; sourceTree = "<group>"; };
-		DF2DE9BDF5305823B3A9B1B0B226596A /* Pods-CSSimpleSideMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSimpleSideMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E4348D1646C63A1669B5641A6A41121D /* Pods-CSSimpleSideMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSSimpleSideMenu_Tests.modulemap"; sourceTree = "<group>"; };
+		9FD47D508F2CB3FE4D3F1365ED2BE293 /* SideMenuTableViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = SideMenuTableViewController.storyboard; sourceTree = "<group>"; };
+		AB2EDF65E4C17630E929F4BFAE4F2949 /* Pods-CSSimpleSideMenu_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSimpleSideMenu_Example-resources.sh"; sourceTree = "<group>"; };
+		AD5091F8B16E26B0E29111D1ECB82A20 /* Pods-CSSimpleSideMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSSimpleSideMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B38B8227AB8677602139D8A1715721C7 /* CSSimpleSideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSSimpleSideMenu-umbrella.h"; sourceTree = "<group>"; };
+		BEF2D5B64946597F76F9C4B7A238EA67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BF0269E48ECC54FA538B46E253E9966B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C499E33850BC55D63007B8A5C729F2E6 /* Pods-CSSimpleSideMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSimpleSideMenu_Example-umbrella.h"; sourceTree = "<group>"; };
+		C9765095F0D92CBA50F56FEC9CE82768 /* SideMenuViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = SideMenuViewController.storyboard; sourceTree = "<group>"; };
+		CAA76B3C7900B1D08CE013743B2D88EB /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		D7E4412E6679AE0E54E9E18FF74661E1 /* CSSimpleSideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSSimpleSideMenu.xcconfig; sourceTree = "<group>"; };
+		DF38F66A5DDEDA990539834DC9150280 /* Pods-CSSimpleSideMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSimpleSideMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E441F82A646FB1B4182EC5D287F7ECE0 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		E6D56F9B667496D5FD3C84E86C0D0842 /* CSSimpleSideMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CSSimpleSideMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F11D927E77F5CA8FE0F03D9B50BC7A89 /* SideMenuTVCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SideMenuTVCell.xib; sourceTree = "<group>"; };
+		F356A0025806078E5EBE4D9EA9906FCC /* SideMenuCustomizationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SideMenuCustomizationModel.swift; sourceTree = "<group>"; };
+		FDA1C9D715515D26C4385B32BAB75FA3 /* SideMenuControllerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SideMenuControllerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,132 +102,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C54D9FD6307EDCA75B514902B277738 /* Frameworks */ = {
+		7C31DD0822F5F67D7171C393695F861D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				744946500D3082C0553BEC7143887B34 /* Foundation.framework in Frameworks */,
+				81804DE061E1380537A6F7B35E7D5F08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D15ED656BE7752B4FFDC8334D3A12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E5C654E26606654C03B3993351DDFE4 /* CSSimpleSideMenu */ = {
+		0AB4F0578C0477E5D45932075212FD97 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F512217FC75A009A727E /* SideMenu.swift */,
-				3D82F50D217FC75A009A727E /* Extensions */,
-				3D82F509217FC75A009A727E /* Models */,
-				3D82F4FA217FC75A009A727E /* UI Layer */,
-				F4640DC0CD40A8DDF656F0CE8FCDE2D5 /* Support Files */,
 			);
-			name = CSSimpleSideMenu;
-			path = ../..;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		3AE307CB068646D039EEB9DCC4492708 /* Development Pods */ = {
+		31009337F6225624F6FC0EF9060F439F /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				1E5C654E26606654C03B3993351DDFE4 /* CSSimpleSideMenu */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3D82F4FA217FC75A009A727E /* UI Layer */ = {
-			isa = PBXGroup;
-			children = (
-				3D82F4FB217FC75A009A727E /* Cells */,
-				3D82F4FE217FC75A009A727E /* Enums */,
-				3D82F500217FC75A009A727E /* ViewControllers */,
-				3D82F507217FC75A009A727E /* Protocols */,
-			);
-			name = "UI Layer";
-			path = "CSSimpleSideMenu/UI Layer";
-			sourceTree = "<group>";
-		};
-		3D82F4FB217FC75A009A727E /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				3D82F4FC217FC75A009A727E /* SideMenuTVCell.swift */,
-				3D82F4FD217FC75A009A727E /* SideMenuTVCell.xib */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		3D82F4FE217FC75A009A727E /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				3D82F4FF217FC75A009A727E /* SideMenuEnums.swift */,
+				58F531A109F491687B36B43B07CE8552 /* SideMenuEnums.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
 		};
-		3D82F500217FC75A009A727E /* ViewControllers */ = {
+		36958795A8D0CEBC6807270E9F232619 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F501217FC75A009A727E /* MainViewController */,
-				3D82F504217FC75A009A727E /* TableViewController */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		3D82F501217FC75A009A727E /* MainViewController */ = {
-			isa = PBXGroup;
-			children = (
-				3D82F503217FC75A009A727E /* SideMenuViewController.storyboard */,
-				3D82F502217FC75A009A727E /* SideMenuViewController.swift */,
-			);
-			path = MainViewController;
-			sourceTree = "<group>";
-		};
-		3D82F504217FC75A009A727E /* TableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				3D82F506217FC75A009A727E /* SideMenuTableViewController.storyboard */,
-				3D82F505217FC75A009A727E /* SideMenuTableViewController.swift */,
-			);
-			path = TableViewController;
-			sourceTree = "<group>";
-		};
-		3D82F507217FC75A009A727E /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				3D82F508217FC75A009A727E /* SideMenuViewControllerDelegate.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		3D82F509217FC75A009A727E /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				3D82F50A217FC75A009A727E /* SideMenuCustomizationModel.swift */,
-				3D82F50B217FC75A009A727E /* SideMenuControllerModel.swift */,
-				3D82F50C217FC75A009A727E /* SideMenuTableViewControllerConfiguration.swift */,
-			);
-			name = Models;
-			path = CSSimpleSideMenu/Models;
-			sourceTree = "<group>";
-		};
-		3D82F50D217FC75A009A727E /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				3D8A27542192602000EC3CA5 /* Bundle+Extension.swift */,
-				3D82F50E217FC75A009A727E /* UIViewController+Extensions.swift */,
-				3D82F50F217FC75A009A727E /* Reusable.swift */,
-				3D82F510217FC75A009A727E /* UITableView+Extensions.swift */,
+				8775A976DE48673F93368DCE3121A9B7 /* Bundle+Extension.swift */,
+				CAA76B3C7900B1D08CE013743B2D88EB /* Reusable.swift */,
+				E441F82A646FB1B4182EC5D287F7ECE0 /* UITableView+Extensions.swift */,
+				6FE1E8CA41E1E874B41E4DC09A929A6F /* UIViewController+Extensions.swift */,
 			);
 			name = Extensions;
 			path = CSSimpleSideMenu/Extensions;
 			sourceTree = "<group>";
 		};
-		3DC83026398DCBAFDD751C284C1CFD82 /* Targets Support Files */ = {
+		39A2C67CF1F17D1404C4877F78AC039D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D3A6B8B43466DFD62218198CAC6E4E6 /* Pods-CSSimpleSideMenu_Example */,
-				96381FCCC4CA0F833837E2D8FCE4CDB5 /* Pods-CSSimpleSideMenu_Tests */,
+				8F2649A8B66AC50735213108EC60FD9D /* CSSimpleSideMenu.bundle */,
+				3BB0C3F915EC954164D4A0C2A8B82971 /* CSSimpleSideMenu.framework */,
+				69D9DB92F9A27D105DF49E9B986E1B35 /* Pods_CSSimpleSideMenu_Example.framework */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -235,60 +165,89 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6A5D46A5936F52522CBBEEDF327D3CD0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC0191C9E1FF94D044F4B030748B66C0 /* CSSimpleSideMenu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6B6584D7ED60A6C47A00CDE0941EE723 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E6D56F9B667496D5FD3C84E86C0D0842 /* CSSimpleSideMenu.podspec */,
+				BEF2D5B64946597F76F9C4B7A238EA67 /* LICENSE */,
+				597D52C15B5CEFBDB86B0186DE75EA24 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6F2E028FEE361A9067A6E21DC4365053 /* UI Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B34F131E71518FB8B86FC6BC4646C311 /* Cells */,
+				31009337F6225624F6FC0EF9060F439F /* Enums */,
+				FE97B014C17A48C8B500FAA35AB83F6E /* Protocols */,
+				9BF294105F585F6F4225004CAF8FA15E /* ViewControllers */,
+			);
+			name = "UI Layer";
+			path = "CSSimpleSideMenu/UI Layer";
+			sourceTree = "<group>";
+		};
+		725F497DC3B658BE833D1E24A8C303CE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE0CC789A19A3F1AE8362C3B6D5941D1 /* Pods-CSSimpleSideMenu_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3AE307CB068646D039EEB9DCC4492708 /* Development Pods */,
+				6A5D46A5936F52522CBBEEDF327D3CD0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B2653655E55DABD8032AD42DA122AA56 /* Products */,
-				3DC83026398DCBAFDD751C284C1CFD82 /* Targets Support Files */,
+				39A2C67CF1F17D1404C4877F78AC039D /* Products */,
+				725F497DC3B658BE833D1E24A8C303CE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D3A6B8B43466DFD62218198CAC6E4E6 /* Pods-CSSimpleSideMenu_Example */ = {
+		8251C43666E670D07A4BE1D37586ACE4 /* TableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0E5EE6A61F53DCF06F8A081EC7990036 /* Info.plist */,
-				58C13D922C417DE4BDACCE27A3801663 /* Pods-CSSimpleSideMenu_Example.modulemap */,
-				3246948570C8613EED27AAF7CC6725F9 /* Pods-CSSimpleSideMenu_Example-acknowledgements.markdown */,
-				31C0A6DF6502CBE7C5BE7576D17C0C31 /* Pods-CSSimpleSideMenu_Example-acknowledgements.plist */,
-				B022ED8A154E1640E0571F3F7876DF6E /* Pods-CSSimpleSideMenu_Example-dummy.m */,
-				4970BFB2CD9D4381026E61F399C1E11B /* Pods-CSSimpleSideMenu_Example-frameworks.sh */,
-				286578A32B397A379F2ABD69BEB87B0C /* Pods-CSSimpleSideMenu_Example-resources.sh */,
-				A5D4A0C210F517D27203731BE2B734AB /* Pods-CSSimpleSideMenu_Example-umbrella.h */,
-				7829724DF6A3141038D8C8037003316B /* Pods-CSSimpleSideMenu_Example.debug.xcconfig */,
-				6965A5FE7CA64000E1762D66B8AD94E1 /* Pods-CSSimpleSideMenu_Example.release.xcconfig */,
+				9FD47D508F2CB3FE4D3F1365ED2BE293 /* SideMenuTableViewController.storyboard */,
+				0F9FB2BA4D75F5BB85D7B988AC7F466F /* SideMenuTableViewController.swift */,
 			);
-			name = "Pods-CSSimpleSideMenu_Example";
-			path = "Target Support Files/Pods-CSSimpleSideMenu_Example";
+			path = TableViewController;
 			sourceTree = "<group>";
 		};
-		96381FCCC4CA0F833837E2D8FCE4CDB5 /* Pods-CSSimpleSideMenu_Tests */ = {
+		9BF294105F585F6F4225004CAF8FA15E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				820D22D4B78950C0DCE037C79E14DCBB /* Info.plist */,
-				E4348D1646C63A1669B5641A6A41121D /* Pods-CSSimpleSideMenu_Tests.modulemap */,
-				1C6306558163CD06DA2D3401418F78B9 /* Pods-CSSimpleSideMenu_Tests-acknowledgements.markdown */,
-				25C430D97E0F503075249C4565CFE245 /* Pods-CSSimpleSideMenu_Tests-acknowledgements.plist */,
-				07391A68026E2AF5278B857DD9890A60 /* Pods-CSSimpleSideMenu_Tests-dummy.m */,
-				3A848B3A9CB0A2D256581E01FD666F00 /* Pods-CSSimpleSideMenu_Tests-frameworks.sh */,
-				BB1E0846A81B34D5151CA7D25AD88B98 /* Pods-CSSimpleSideMenu_Tests-resources.sh */,
-				905B14945BA198941903B573CAC340B1 /* Pods-CSSimpleSideMenu_Tests-umbrella.h */,
-				DF2DE9BDF5305823B3A9B1B0B226596A /* Pods-CSSimpleSideMenu_Tests.debug.xcconfig */,
-				34451FEF900897843C68BA3BCB506801 /* Pods-CSSimpleSideMenu_Tests.release.xcconfig */,
+				9DF66F0032BF3115D239ED28449E32A7 /* MainViewController */,
+				8251C43666E670D07A4BE1D37586ACE4 /* TableViewController */,
 			);
-			name = "Pods-CSSimpleSideMenu_Tests";
-			path = "Target Support Files/Pods-CSSimpleSideMenu_Tests";
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		B2653655E55DABD8032AD42DA122AA56 /* Products */ = {
+		9DF66F0032BF3115D239ED28449E32A7 /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4CEC988EDA2165F4B8812F3620616319 /* CSSimpleSideMenu.framework */,
-				BBBBD7C0B7AA83A44D8B1786371F37CF /* Pods_CSSimpleSideMenu_Example.framework */,
+				C9765095F0D92CBA50F56FEC9CE82768 /* SideMenuViewController.storyboard */,
+				6DDCB135602B50D27CF96B12616C8F76 /* SideMenuViewController.swift */,
 			);
-			name = Products;
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		B34F131E71518FB8B86FC6BC4646C311 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				688B2025A5503E9B37B1BEF3E9CAA1C2 /* SideMenuTVCell.swift */,
+				F11D927E77F5CA8FE0F03D9B50BC7A89 /* SideMenuTVCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -299,28 +258,81 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F4640DC0CD40A8DDF656F0CE8FCDE2D5 /* Support Files */ = {
+		BD4263548589D1853C590A363C6BDD68 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B498142BF6FEDF3472D1DDF99D51011D /* CSSimpleSideMenu.modulemap */,
-				C4C02B7D2894560B3E1777218CFE0782 /* CSSimpleSideMenu.xcconfig */,
-				973B39DDEB9CBEE228040AE34E1BFF9F /* CSSimpleSideMenu-dummy.m */,
-				83644BD0D1F71393B31C6B86C41006FB /* CSSimpleSideMenu-prefix.pch */,
-				969DF200A929CE9FB9CA932C79790465 /* CSSimpleSideMenu-umbrella.h */,
-				346E723888102668CE62B89D56369FBE /* Info.plist */,
+				3BFB44BCFFEFEEF9837C59CAC3EB31DB /* CSSimpleSideMenu.modulemap */,
+				D7E4412E6679AE0E54E9E18FF74661E1 /* CSSimpleSideMenu.xcconfig */,
+				56E1A2BD4CDADC8FE4E121E2A67390FB /* CSSimpleSideMenu-dummy.m */,
+				1CF153F71D52ED12AEAB10A654815FA7 /* CSSimpleSideMenu-prefix.pch */,
+				B38B8227AB8677602139D8A1715721C7 /* CSSimpleSideMenu-umbrella.h */,
+				BF0269E48ECC54FA538B46E253E9966B /* Info.plist */,
+				1E6C827B2787E0FBB1B5C2389BCB467D /* ResourceBundle-CSSimpleSideMenu-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CSSimpleSideMenu";
 			sourceTree = "<group>";
 		};
+		CC0191C9E1FF94D044F4B030748B66C0 /* CSSimpleSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				29CF86AA5CB03A3A875C4CDCCBE53EE8 /* SideMenu.swift */,
+				36958795A8D0CEBC6807270E9F232619 /* Extensions */,
+				EE8530A1F26698EE9518DA2C7CDB716F /* Models */,
+				6B6584D7ED60A6C47A00CDE0941EE723 /* Pod */,
+				0AB4F0578C0477E5D45932075212FD97 /* Resources */,
+				BD4263548589D1853C590A363C6BDD68 /* Support Files */,
+				6F2E028FEE361A9067A6E21DC4365053 /* UI Layer */,
+			);
+			name = CSSimpleSideMenu;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DE0CC789A19A3F1AE8362C3B6D5941D1 /* Pods-CSSimpleSideMenu_Example */ = {
+			isa = PBXGroup;
+			children = (
+				84334CE8BDC4EFC2E8CAE61B205F9199 /* Info.plist */,
+				8AAAECE2768ED5548844903690820DE4 /* Pods-CSSimpleSideMenu_Example.modulemap */,
+				AD5091F8B16E26B0E29111D1ECB82A20 /* Pods-CSSimpleSideMenu_Example-acknowledgements.markdown */,
+				3CD6BFB5C246A27701904CBED7D594FB /* Pods-CSSimpleSideMenu_Example-acknowledgements.plist */,
+				6547E0C9C7013C475969157186DD7764 /* Pods-CSSimpleSideMenu_Example-dummy.m */,
+				DF38F66A5DDEDA990539834DC9150280 /* Pods-CSSimpleSideMenu_Example-frameworks.sh */,
+				AB2EDF65E4C17630E929F4BFAE4F2949 /* Pods-CSSimpleSideMenu_Example-resources.sh */,
+				C499E33850BC55D63007B8A5C729F2E6 /* Pods-CSSimpleSideMenu_Example-umbrella.h */,
+				2F0CC1BBA04B4B8C19FA2E167241076C /* Pods-CSSimpleSideMenu_Example.debug.xcconfig */,
+				630A97A1D0DF6E12349971D1D4D3ACBB /* Pods-CSSimpleSideMenu_Example.release.xcconfig */,
+			);
+			name = "Pods-CSSimpleSideMenu_Example";
+			path = "Target Support Files/Pods-CSSimpleSideMenu_Example";
+			sourceTree = "<group>";
+		};
+		EE8530A1F26698EE9518DA2C7CDB716F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1C9D715515D26C4385B32BAB75FA3 /* SideMenuControllerModel.swift */,
+				F356A0025806078E5EBE4D9EA9906FCC /* SideMenuCustomizationModel.swift */,
+				4C6C2A7964C747E3162215A1262B926C /* SideMenuTableViewControllerConfiguration.swift */,
+			);
+			name = Models;
+			path = CSSimpleSideMenu/Models;
+			sourceTree = "<group>";
+		};
+		FE97B014C17A48C8B500FAA35AB83F6E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				298B4FB1BB6AA5AFEE6C30A5B4131399 /* SideMenuViewControllerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		19938B25862A7DF36C8FD7447AEE5BBD /* Headers */ = {
+		942278D155D7EF9837DBB2121B967F4E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E721DDDD625795D1ED467CAD4F671A4B /* CSSimpleSideMenu-umbrella.h in Headers */,
+				AA5587A4D87D40B7969E5E460E3B50AA /* CSSimpleSideMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,22 +347,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		049B47DBAE637A4642BE577E6B618DD2 /* CSSimpleSideMenu */ = {
+		68C86E598FC37365B5E983361EE2066E /* CSSimpleSideMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 408AFACD43474889CB7066E82A421265 /* Build configuration list for PBXNativeTarget "CSSimpleSideMenu" */;
+			buildConfigurationList = 7137D775B72F589C59ECA7426DB40CE9 /* Build configuration list for PBXNativeTarget "CSSimpleSideMenu" */;
 			buildPhases = (
-				182AE6A2D1AA02537751EE563A272A5E /* Sources */,
-				9C54D9FD6307EDCA75B514902B277738 /* Frameworks */,
-				19938B25862A7DF36C8FD7447AEE5BBD /* Headers */,
-				3D82F4C8217FC050009A727E /* Resources */,
+				3DB654597D2CE1BFA394A4D27F2AE607 /* Sources */,
+				7C31DD0822F5F67D7171C393695F861D /* Frameworks */,
+				492047F419E026F4EC48E9C40BD4CB07 /* Resources */,
+				942278D155D7EF9837DBB2121B967F4E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1DB8465E47D40D7FA611DB04434E1D34 /* PBXTargetDependency */,
 			);
 			name = CSSimpleSideMenu;
 			productName = CSSimpleSideMenu;
-			productReference = 4CEC988EDA2165F4B8812F3620616319 /* CSSimpleSideMenu.framework */;
+			productReference = 3BB0C3F915EC954164D4A0C2A8B82971 /* CSSimpleSideMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AF6E22B850805580BF1B43095E59E296 /* Pods-CSSimpleSideMenu_Example */ = {
@@ -368,8 +381,25 @@
 			);
 			name = "Pods-CSSimpleSideMenu_Example";
 			productName = "Pods-CSSimpleSideMenu_Example";
-			productReference = BBBBD7C0B7AA83A44D8B1786371F37CF /* Pods_CSSimpleSideMenu_Example.framework */;
+			productReference = 69D9DB92F9A27D105DF49E9B986E1B35 /* Pods_CSSimpleSideMenu_Example.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		BCCE83794899B213535F8001325313D9 /* CSSimpleSideMenu-CSSimpleSideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9E16CA9F919C5BA25316A72306411F /* Build configuration list for PBXNativeTarget "CSSimpleSideMenu-CSSimpleSideMenu" */;
+			buildPhases = (
+				8C66510C3B31FB45DC7CF4E57EFF10FA /* Sources */,
+				E3D15ED656BE7752B4FFDC8334D3A12D /* Frameworks */,
+				5475D61AC4BC0A33D651CA1E89E563DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSSimpleSideMenu-CSSimpleSideMenu";
+			productName = "CSSimpleSideMenu-CSSimpleSideMenu";
+			productReference = 8F2649A8B66AC50735213108EC60FD9D /* CSSimpleSideMenu.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -379,11 +409,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					049B47DBAE637A4642BE577E6B618DD2 = {
-						LastSwiftMigration = 0940;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -393,48 +418,57 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B2653655E55DABD8032AD42DA122AA56 /* Products */;
+			productRefGroup = 39A2C67CF1F17D1404C4877F78AC039D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				049B47DBAE637A4642BE577E6B618DD2 /* CSSimpleSideMenu */,
+				68C86E598FC37365B5E983361EE2066E /* CSSimpleSideMenu */,
+				BCCE83794899B213535F8001325313D9 /* CSSimpleSideMenu-CSSimpleSideMenu */,
 				AF6E22B850805580BF1B43095E59E296 /* Pods-CSSimpleSideMenu_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D82F4C8217FC050009A727E /* Resources */ = {
+		492047F419E026F4EC48E9C40BD4CB07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D82F519217FC75A009A727E /* SideMenuTableViewController.storyboard in Resources */,
-				3D82F514217FC75A009A727E /* SideMenuTVCell.xib in Resources */,
-				3D82F517217FC75A009A727E /* SideMenuViewController.storyboard in Resources */,
+				C0A9241727325133684E686D47B1E827 /* CSSimpleSideMenu.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5475D61AC4BC0A33D651CA1E89E563DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B59B7D53197A54154392776C314E24E /* SideMenuTableViewController.storyboard in Resources */,
+				B89C11A1B5502D874CBDD215CFA2D8BB /* SideMenuTVCell.xib in Resources */,
+				AB99EB8D712158F36391B7FF3FEE63F5 /* SideMenuViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		182AE6A2D1AA02537751EE563A272A5E /* Sources */ = {
+		3DB654597D2CE1BFA394A4D27F2AE607 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D82F516217FC75A009A727E /* SideMenuViewController.swift in Sources */,
-				3D8A27552192602000EC3CA5 /* Bundle+Extension.swift in Sources */,
-				3D82F51F217FC75A009A727E /* Reusable.swift in Sources */,
-				3D82F51B217FC75A009A727E /* SideMenuCustomizationModel.swift in Sources */,
-				3D82F520217FC75A009A727E /* UITableView+Extensions.swift in Sources */,
-				3D82F51E217FC75A009A727E /* UIViewController+Extensions.swift in Sources */,
-				F905632AD9665076307AC7AC1037BB02 /* CSSimpleSideMenu-dummy.m in Sources */,
-				3D82F515217FC75A009A727E /* SideMenuEnums.swift in Sources */,
-				3D82F51A217FC75A009A727E /* SideMenuViewControllerDelegate.swift in Sources */,
-				3D82F521217FC75A009A727E /* SideMenu.swift in Sources */,
-				3D82F513217FC75A009A727E /* SideMenuTVCell.swift in Sources */,
-				3D82F51D217FC75A009A727E /* SideMenuTableViewControllerConfiguration.swift in Sources */,
-				3D82F518217FC75A009A727E /* SideMenuTableViewController.swift in Sources */,
-				3D82F51C217FC75A009A727E /* SideMenuControllerModel.swift in Sources */,
+				A1A90B5DD7A7DE7A4558016073EA264D /* Bundle+Extension.swift in Sources */,
+				D37D4F7B7BAB90BD5C36EA662E4190AE /* CSSimpleSideMenu-dummy.m in Sources */,
+				F7C43F7EFA70304303D9A67C1D10EE9A /* Reusable.swift in Sources */,
+				AF8D229D888BCCEB93785A3E35893FB5 /* SideMenu.swift in Sources */,
+				6A44720C80387D04B6E0F00B05CDB86E /* SideMenuControllerModel.swift in Sources */,
+				8CAD2E061DCA401170CF1356CB28061B /* SideMenuCustomizationModel.swift in Sources */,
+				A271BFD46DFE619618D7CAA88066E207 /* SideMenuEnums.swift in Sources */,
+				4F313871CD64981E51E6F553B4465EC9 /* SideMenuTableViewController.swift in Sources */,
+				27708790E38AFE2409836BB015DECC92 /* SideMenuTableViewControllerConfiguration.swift in Sources */,
+				DE6C53C1316D08232C6072C848E06B5E /* SideMenuTVCell.swift in Sources */,
+				FB5918AE5FF0B765486B2D52EE7F2C8D /* SideMenuViewController.swift in Sources */,
+				7DA5D493F12EF26900273771DE005115 /* SideMenuViewControllerDelegate.swift in Sources */,
+				C875C41F95D4BCBE5F20E5F44D675371 /* UITableView+Extensions.swift in Sources */,
+				4B0602E705F8AC806754D582618665AC /* UIViewController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,22 +480,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C66510C3B31FB45DC7CF4E57EFF10FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1DB8465E47D40D7FA611DB04434E1D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CSSimpleSideMenu-CSSimpleSideMenu";
+			target = BCCE83794899B213535F8001325313D9 /* CSSimpleSideMenu-CSSimpleSideMenu */;
+			targetProxy = 7B8C02FC3F75F2A4E156BCE7328B17F3 /* PBXContainerItemProxy */;
+		};
 		45EFC21CDFB1A2B509EFFE892FB7826B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CSSimpleSideMenu;
-			target = 049B47DBAE637A4642BE577E6B618DD2 /* CSSimpleSideMenu */;
+			target = 68C86E598FC37365B5E983361EE2066E /* CSSimpleSideMenu */;
 			targetProxy = 65073939DCA0DDC9EF1BD4E7CBAE97D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		238096223BD596A26511DCC091B72E02 /* Debug */ = {
+		1E389D1701F8947C4275E11157874C2E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7829724DF6A3141038D8C8037003316B /* Pods-CSSimpleSideMenu_Example.debug.xcconfig */;
+			baseConfigurationReference = D7E4412E6679AE0E54E9E18FF74661E1 /* CSSimpleSideMenu.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CSSimpleSideMenu";
+				INFOPLIST_FILE = "Target Support Files/CSSimpleSideMenu/ResourceBundle-CSSimpleSideMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CSSimpleSideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4F07324DA13597088B4FA0D4FBAB8529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630A97A1D0DF6E12349971D1D4D3ACBB /* Pods-CSSimpleSideMenu_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -481,18 +546,18 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CSSimpleSideMenu_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -524,6 +589,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -548,14 +614,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -587,6 +652,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -607,49 +673,17 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		87B2CD35CFAC3383FF7CE9CA13E4EA77 /* Release */ = {
+		60B60F3DC49B6AC8A93BEBE3627932D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4C02B7D2894560B3E1777218CFE0782 /* CSSimpleSideMenu.xcconfig */;
+			baseConfigurationReference = 2F0CC1BBA04B4B8C19FA2E167241076C /* Pods-CSSimpleSideMenu_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CSSimpleSideMenu/CSSimpleSideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CSSimpleSideMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CSSimpleSideMenu/CSSimpleSideMenu.modulemap";
-				PRODUCT_NAME = CSSimpleSideMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		99011182C9C4E61CD2A9972A65979B26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6965A5FE7CA64000E1762D66B8AD94E1 /* Pods-CSSimpleSideMenu_Example.release.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -669,22 +703,22 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CSSimpleSideMenu_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		DE5C8658BFD4B2CB717BC98C2AE30ECC /* Debug */ = {
+		93EBAC71C887F3B5C2584E731D41CF4B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4C02B7D2894560B3E1777218CFE0782 /* CSSimpleSideMenu.xcconfig */;
+			baseConfigurationReference = D7E4412E6679AE0E54E9E18FF74661E1 /* CSSimpleSideMenu.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -700,12 +734,63 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CSSimpleSideMenu/CSSimpleSideMenu.modulemap";
+				PRODUCT_MODULE_NAME = CSSimpleSideMenu;
+				PRODUCT_NAME = CSSimpleSideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E63048AD0E43EA9224190F2726FDDAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E4412E6679AE0E54E9E18FF74661E1 /* CSSimpleSideMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CSSimpleSideMenu";
+				INFOPLIST_FILE = "Target Support Files/CSSimpleSideMenu/ResourceBundle-CSSimpleSideMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CSSimpleSideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E6FBF70C7C21CE75A6AE965BF083BC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E4412E6679AE0E54E9E18FF74661E1 /* CSSimpleSideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CSSimpleSideMenu/CSSimpleSideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSSimpleSideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSSimpleSideMenu/CSSimpleSideMenu.modulemap";
+				PRODUCT_MODULE_NAME = CSSimpleSideMenu;
 				PRODUCT_NAME = CSSimpleSideMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -715,20 +800,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		2C9E16CA9F919C5BA25316A72306411F /* Build configuration list for PBXNativeTarget "CSSimpleSideMenu-CSSimpleSideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
-				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+				1E389D1701F8947C4275E11157874C2E /* Debug */,
+				E63048AD0E43EA9224190F2726FDDAE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		408AFACD43474889CB7066E82A421265 /* Build configuration list for PBXNativeTarget "CSSimpleSideMenu" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE5C8658BFD4B2CB717BC98C2AE30ECC /* Debug */,
-				87B2CD35CFAC3383FF7CE9CA13E4EA77 /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7137D775B72F589C59ECA7426DB40CE9 /* Build configuration list for PBXNativeTarget "CSSimpleSideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FBF70C7C21CE75A6AE965BF083BC82 /* Debug */,
+				93EBAC71C887F3B5C2584E731D41CF4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -736,8 +830,8 @@
 		E9D0CEFFE33F9B48472D735959711BC6 /* Build configuration list for PBXNativeTarget "Pods-CSSimpleSideMenu_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				238096223BD596A26511DCC091B72E02 /* Debug */,
-				99011182C9C4E61CD2A9972A65979B26 /* Release */,
+				60B60F3DC49B6AC8A93BEBE3627932D6 /* Debug */,
+				4F07324DA13597088B4FA0D4FBAB8529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

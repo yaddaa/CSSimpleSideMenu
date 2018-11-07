@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'CSSimpleSideMenu/**/*'
 
   s.resource_bundles = {
-      'CSSimpleSideMenu' => ['CSSimpleSideMenu/**/*.{storyboard}']
+      'CSSimpleSideMenu' => ['CSSimpleSideMenu/**/*.{storyboard,xib}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
