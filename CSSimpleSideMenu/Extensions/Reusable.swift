@@ -1,3 +1,11 @@
+//
+//  Reusable.swift
+//  Hookers
+//
+//  Created by Hookers on 12/26/17.
+//  Copyright © 2017 Hookers. All rights reserved.
+//
+
 import UIKit
 
 protocol Reusable: class {
