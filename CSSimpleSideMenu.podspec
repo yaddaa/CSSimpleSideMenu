@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CSSimpleSideMenu'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'A simple iOS side menu for small projects.'
 
 # This description is used to generate tags and improve search results.
@@ -31,10 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.1'
 
-  s.source_files = 'CSSimpleSideMenu/**/*'
+  s.source_files = 'CSSimpleSideMenu/Classes/**/*.{swift}'
 
   s.resource_bundles = {
-      'CSSimpleSideMenu' => ['CSSimpleSideMenu/**/*.{storyboard,xib}']
+      'CSSimpleSideMenu' => ['CSSimpleSideMenu/Classes/**/*.{storyboard,xib}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
