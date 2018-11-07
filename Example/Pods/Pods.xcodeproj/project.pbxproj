@@ -149,19 +149,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D8A275A21928D1D00EC3CA5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				29CF86AA5CB03A3A875C4CDCCBE53EE8 /* SideMenu.swift */,
-				31009337F6225624F6FC0EF9060F439F /* Enums */,
-				EE8530A1F26698EE9518DA2C7CDB716F /* Models */,
-				36958795A8D0CEBC6807270E9F232619 /* Extensions */,
-				9BF294105F585F6F4225004CAF8FA15E /* ViewControllers */,
-				6F2E028FEE361A9067A6E21DC4365053 /* UILayer */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		3D8A275B21928D7900EC3CA5 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,7 +264,12 @@
 		CC0191C9E1FF94D044F4B030748B66C0 /* CSSimpleSideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				3D8A275A21928D1D00EC3CA5 /* Classes */,
+				29CF86AA5CB03A3A875C4CDCCBE53EE8 /* SideMenu.swift */,
+				31009337F6225624F6FC0EF9060F439F /* Enums */,
+				EE8530A1F26698EE9518DA2C7CDB716F /* Models */,
+				36958795A8D0CEBC6807270E9F232619 /* Extensions */,
+				9BF294105F585F6F4225004CAF8FA15E /* ViewControllers */,
+				6F2E028FEE361A9067A6E21DC4365053 /* UILayer */,
 				6B6584D7ED60A6C47A00CDE0941EE723 /* Pod */,
 				BD4263548589D1853C590A363C6BDD68 /* Support Files */,
 			);
