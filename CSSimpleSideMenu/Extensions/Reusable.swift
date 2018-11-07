@@ -26,7 +26,7 @@ protocol NibLoadable: class {
 extension NibLoadable {
     
     static var nib: UINib {
-        return UINib(nibName: nibName, bundle: Bundle(for: self))
+        return UINib(nibName: nibName, bundle: Bundle.podBundle(for: self))
     }
     
     static var nibName: String {

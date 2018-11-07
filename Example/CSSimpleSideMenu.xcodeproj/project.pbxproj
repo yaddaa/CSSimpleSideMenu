@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B4C50E183239ED8D314B778 /* Pods_CSSimpleSideMenu_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A13FF0DC40E4A85DBBAD5F6 /* Pods_CSSimpleSideMenu_Example.framework */; };
-		3D82F4C0217FBCDD009A727E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F4BF217FBCDD009A727E /* AppDelegate.swift */; };
+		3D18D66821932F31003B08E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18D66721932F30003B08E8 /* AppDelegate.swift */; };
 		3D82F52A217FC7CC009A727E /* CSSimpleSideMenu.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F529217FC7CC009A727E /* CSSimpleSideMenu.podspec */; };
 		3D82F52D217FC830009A727E /* FirstViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82F52B217FC830009A727E /* FirstViewController.storyboard */; };
 		3D82F52E217FC830009A727E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82F52C217FC830009A727E /* FirstViewController.swift */; };
@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		18ABA205A6AB7D2B02EFB3C9 /* Pods_CSSimpleSideMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSimpleSideMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CC33373E796472FABF637C /* Pods-CSSimpleSideMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSimpleSideMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSSimpleSideMenu_Tests/Pods-CSSimpleSideMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3D82F4BF217FBCDD009A727E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D18D66721932F30003B08E8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D82F529217FC7CC009A727E /* CSSimpleSideMenu.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSSimpleSideMenu.podspec; path = ../CSSimpleSideMenu.podspec; sourceTree = "<group>"; };
 		3D82F52B217FC830009A727E /* FirstViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstViewController.storyboard; sourceTree = "<group>"; };
 		3D82F52C217FC830009A727E /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		607FACD21AFB9204008FA782 /* Example for CSSimpleSideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				3D82F4BF217FBCDD009A727E /* AppDelegate.swift */,
+				3D18D66721932F30003B08E8 /* AppDelegate.swift */,
 				3D82F522217FC7AE009A727E /* Extensions */,
 				3D82F524217FC7AE009A727E /* Modules */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -303,9 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D82F532217FC838009A727E /* SecondViewController.swift in Sources */,
-				3D82F4C0217FBCDD009A727E /* AppDelegate.swift in Sources */,
 				3D82F538217FC865009A727E /* UIViewController+Extensions.swift in Sources */,
 				3D82F535217FC841009A727E /* ThirdViewController.swift in Sources */,
+				3D18D66821932F31003B08E8 /* AppDelegate.swift in Sources */,
 				3D82F52E217FC830009A727E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

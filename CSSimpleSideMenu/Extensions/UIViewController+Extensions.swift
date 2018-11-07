@@ -2,14 +2,13 @@ import UIKit
 
 extension UIViewController {
     
-    class func instance() -> Self {
-        return instantiateFromStoryboardHelper(String(describing: self))
+    class func instanceInitial() -> Self {
+        return instantiateFromStoryboardHelper()
     }
     
-    fileprivate class func instantiateFromStoryboardHelper<T>(_ name: String) -> T {
-        let storyboard = UIStoryboard(name: name, bundle: Bundle(for: self))
-        let identifier = String(describing: self)
-        let controller = storyboard.instantiateViewController(withIdentifier: identifier) as! T
+    fileprivate class func instantiateFromStoryboardHelper<T>() -> T {        
+        let storyboard = UIStoryboard(name: String(describing: self), bundle: Bundle.podBundle(for: self))
+        let controller = storyboard.instantiateInitialViewController() as! T
         return controller
     }
     

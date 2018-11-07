@@ -13,10 +13,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             SideMenuControllerModel(with: SecondViewController.instance(), name: "Second"),
             SideMenuControllerModel(with: ThirdViewController.instance(), name: "Third")
         ]
-
+        
         let customization = SideMenuCustomizationModel()
         customization.position = .left
-
+        
         SideMenu.configure(with: controllers, customization: customization)
         
         return true
