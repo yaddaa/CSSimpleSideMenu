@@ -62,14 +62,14 @@
                         <outlet property="delegate" destination="AaJ-yH-8lv" id="Y1V-tb-J8n"/>
                     </connections>
                 </tapGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="HlC-Vw-6DB">
+                <swipeGestureRecognizer cancelsTouchesInView="NO" direction="left" id="HlC-Vw-6DB">
                     <connections>
                         <action selector="receiveSwipe:" destination="AaJ-yH-8lv" id="Wgi-7g-SRr"/>
                         <outlet property="delegate" destination="AaJ-yH-8lv" id="zeg-WF-dfy"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-322.39999999999998" y="7.6461769115442282"/>
+            <point key="canvasLocation" x="-514" y="6"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hx1-Ma-v8m">

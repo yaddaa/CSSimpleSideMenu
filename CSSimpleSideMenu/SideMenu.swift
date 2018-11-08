@@ -12,7 +12,7 @@ public class SideMenu {
 
     // MARK: - Public
     
-    static public func toggle() {
+    class public func toggle() {
         shared.currentState.toggle()
         
         switch shared.currentState {
@@ -22,14 +22,22 @@ public class SideMenu {
     }
     
     // MARK: - Configuration
-    static public func configure(with controllers: [SideMenuControllerModel], customization: SideMenuCustomizationModel?) {
+    class public func configure(with controllers: [SideMenuControllerModel], customization: SideMenuCustomizationModel?) {
         
         shared.models = controllers
         shared.customization = customization ?? SideMenuCustomizationModel()
         
+        //set delegate 
+        shared.mainViewController.delegate = shared
+        
         //set side menu as root controller in application window
         UIApplication.shared.delegate?.window??.rootViewController = shared.mainViewController
         UIApplication.shared.delegate?.window??.makeKeyAndVisible()
+    }
+
+    internal func didSelectViewController(_ selectedIndex: Int) {
+        mainViewController.setViewController(models[selectedIndex].viewController)
+        hide()
     }
     
 }
@@ -37,7 +45,7 @@ public class SideMenu {
 // MARK: SideMenuConfiguration
 extension SideMenu {
     
-    static func configuration() -> SideMenuConfigurationModel {
+    class func configuration() -> SideMenuConfigurationModel {
         let names = shared.models.map({ $0.visibleName })
         let configuration = SideMenuConfigurationModel(visibleNames: names) { (index) in
             shared.didSelectViewController(index)
@@ -47,22 +55,18 @@ extension SideMenu {
         return configuration
     }
     
-    static func firstControllerModel() -> SideMenuControllerModel?  {
+    class func firstControllerModel() -> SideMenuControllerModel?  {
         return shared.models.first
     }
     
-    static func isLeftSideMenu() -> Bool {
+    class func isLeftSideMenu() -> Bool {
         return shared.customization.position == .left
     }
+    
 }
 
 // MARK: - SideMenuViewControllerDelegate
 extension SideMenu: SideMenuViewControllerDelegate {
-    
-    internal func didSelectViewController(_ selectedIndex: Int) {
-        mainViewController.setViewController(models[selectedIndex].viewController)
-        hide()
-    }
     
     internal func hide() {
         SideMenu.toggle()

@@ -1,6 +1,6 @@
 import UIKit
 
-class SideMenuViewController: UIViewController, UIGestureRecognizerDelegate {
+class SideMenuViewController: UIViewController {
     
     // MARK: - Outlets
     
@@ -36,19 +36,6 @@ class SideMenuViewController: UIViewController, UIGestureRecognizerDelegate {
         guard let model = SideMenu.firstControllerModel() else { return }
         setViewController(model.viewController)
     }
-
-    // MARK: Gestures
-    
-    @IBAction private func receiveTap(_ sender: UITapGestureRecognizer) {
-        let point = sender.location(in: contentContainer)
-        if contentContainer.point(inside: point, with: nil) {
-            delegate?.hide()
-        }
-    }
-    
-    @IBAction private func receiveSwipe(_ sender: UISwipeGestureRecognizer) {
-        delegate?.hide()
-    }
     
     // MARK: - Public
     
@@ -64,14 +51,36 @@ class SideMenuViewController: UIViewController, UIGestureRecognizerDelegate {
         }
         
         contentContainer.isUserInteractionEnabled = false
+        tableContainer.isUserInteractionEnabled = true
     }
     
     public func hideMenu() {
         moveContentContainerToDefault()
+        
         contentContainer.isUserInteractionEnabled = true
+        tableContainer.isUserInteractionEnabled = false
+    }
+
+}
+
+// MARK: - Gestures
+extension SideMenuViewController {
+    
+    @IBAction private func receiveTap(_ sender: UITapGestureRecognizer) {
+        let point = sender.location(in: contentContainer)
+        if contentContainer.point(inside: point, with: nil) {
+            delegate?.hide()
+        }
     }
     
-    // MARK: - Private Animation Help
+    @IBAction private func receiveSwipe(_ sender: UISwipeGestureRecognizer) {
+        delegate?.hide()
+    }
+    
+}
+
+// MARK: - Private Animation Help
+extension SideMenuViewController {
     
     private func moveContentContainerToDefault() {
         UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseInOut, animations: {
@@ -98,5 +107,5 @@ class SideMenuViewController: UIViewController, UIGestureRecognizerDelegate {
             self.contentContainer.layer.transform = transform
         })
     }
-
+    
 }
