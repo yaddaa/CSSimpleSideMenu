@@ -69,6 +69,7 @@ extension SideMenu {
 extension SideMenu: SideMenuViewControllerDelegate {
     
     internal func hide() {
+        guard SideMenu.shared.currentState == .hidden else { return }
         SideMenu.toggle()
     }
     
