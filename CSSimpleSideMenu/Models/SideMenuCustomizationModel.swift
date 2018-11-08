@@ -17,7 +17,7 @@ public class SideMenuCustomizationModel {
     
     public var menuItemsTitleColor: UIColor = .white
     
-    public var menuItemsHeight: CGFloat = 64
+    public var menuItemsHeight: CGFloat = 62
     
     //top and bottom images of menu
     public var topImage: UIImage? = nil

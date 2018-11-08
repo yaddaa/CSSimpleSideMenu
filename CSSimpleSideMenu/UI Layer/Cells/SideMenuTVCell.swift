@@ -2,9 +2,14 @@ import UIKit
 
 final class SideMenuTVCell: UITableViewCell, NibReusable {
     
+    // MARK: - Outlets
+    
+    @IBOutlet weak var selectedView: UIView!
+    @IBOutlet weak var titleLabel: UILabel!
+    
     // MARK: - Properties
     
-    @IBOutlet weak var titleLabel: UILabel!
+    var selectedColor: UIColor?
     
     // MARK: - Overrides
 
@@ -12,13 +17,12 @@ final class SideMenuTVCell: UITableViewCell, NibReusable {
         super.awakeFromNib()
         
         // Initialization code
-        addSelectedView()
     }
     
-    private func addSelectedView() {
-        let selectedView = UIView()
-        selectedView.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0).withAlphaComponent(0.1)
-        selectedBackgroundView = selectedView
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        selectedView.backgroundColor = isSelected ? selectedColor : .clear
     }
     
     // MARK: - Public
@@ -28,6 +32,7 @@ final class SideMenuTVCell: UITableViewCell, NibReusable {
         titleLabel.textColor = customization.menuItemsTitleColor
         titleLabel.font = customization.menuItemsFont
 
-        selectedBackgroundView?.backgroundColor = customization.menuItemsSelectedColor
+        selectedColor = customization.menuItemsSelectedColor
     }
+    
 }
