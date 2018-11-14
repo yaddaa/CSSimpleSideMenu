@@ -21,6 +21,12 @@ public class SideMenu {
         }
     }
     
+    class public func forceSelectViewController(at index: Int) {
+        guard shared.models.count > index else { return }
+        shared.hide()
+        shared.didSelectViewController(index)
+    }
+    
     // MARK: - Configuration
     class public func configure(with controllers: [SideMenuControllerModel], customization: SideMenuCustomizationModel?) {
         

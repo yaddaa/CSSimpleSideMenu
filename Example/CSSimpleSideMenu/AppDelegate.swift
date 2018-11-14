@@ -19,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         SideMenu.configure(with: controllers, customization: customization)
         
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+//            SideMenu.forseSelectViewController(at: 0)
+//        }
+        
         return true
     }
     
